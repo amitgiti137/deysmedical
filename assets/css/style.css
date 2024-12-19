@@ -26,10 +26,17 @@
 }
 body{
 	background-color: #fff;
-/* background-image: linear-gradient(180deg, #FFF0E5 0%, #FFF0E5 40%);    */
+  font-family: "Outfit", serif;
 }
 a{
   text-decoration: none;
+}
+.thirty{
+  color: #FFA722;
+  font-size: 24px;
+}
+.header a{
+  color: #fff;
 }
 .logo-div{
   text-align: center;
@@ -51,10 +58,16 @@ a{
 .ambulance-box img{
   width: 40px;
 }
-#white{
+#whites{
   color: #fff;
   margin-bottom: 0px;
   font-size: 13px;
+  font-family: "Outfit", serif;
+}
+#white{
+  color: #fff;
+  margin-bottom: 0px;
+  font-size: 17px;
   font-family: "Outfit", serif;
 }
 p{
@@ -67,15 +80,26 @@ p{
   justify-content: center;
   gap: 90px;
 }
+.offcanvas{
+background-color: #0000007c;
+}
+.mb{
+  margin-bottom: 50px;
+}
+#prov{
+  color: #1376F8;
+  font-size: 18px;
+}
 h2{
-  color: #C80807;
-  text-align: center;
-  font-family: "Black Han Sans", sans-serif;
-  font-weight: 500 !important;
+  color: #011632;
+  text-align: left;
+ font-weight: 500 !important;
   font-size: 30px;
   padding-bottom: 8px;
 }
-
+.text-img{
+  padding-top: 50px;
+}
 .go-top.active {
   top: 98%;
   -webkit-transform: translateY(-98%);
@@ -103,6 +127,19 @@ h2{
   transition: .9s;
   
 }
+ul li{
+  list-style: none;
+}
+.offcanvas-body ul li{
+  padding-top:20px;
+  padding-left: 0px;
+  font-size: 20px;
+}
+.offcanvas-header .btn-close{
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+}
 .order{
   position: fixed;
   display: block;
@@ -128,7 +165,6 @@ h2{
   opacity: 1;
   visibility: visible;
 }
-
 /* marquee starts */
 /* Container styles */
 .scrolling-text-container {
@@ -202,6 +238,12 @@ h2{
 .header button{
  border:none;
  background-color: transparent;
+}
+.banner-text{
+  position: absolute;
+  top:40%;
+  left: 20%;
+  color: #fff;
 }
 /* tab strats */
 #tab-button {
