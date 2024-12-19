@@ -184,6 +184,21 @@ h2{
   }
 }
 /* marquee ends */
+.blue{
+  background-image: url(../img/blue-bg.png);
+  background-repeat: no-repeat;
+  height: 100px;
+  padding: 20px;
+}
+.header{
+  background-color: #000;
+  padding-top: 10px;
+  width: 100%;
+}
+.header button{
+ border:none;
+ background-color: transparent;
+}
 /* tab strats */
 #tab-button {
 	display: table;
