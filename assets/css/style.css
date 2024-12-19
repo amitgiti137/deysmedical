@@ -100,6 +100,25 @@ h2{
 .text-img{
   padding-top: 50px;
 }
+.pro-img{
+  position: relative;
+}
+.pro-tex{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 22%;
+}
+.diagnodtic{
+  background-color: #f2f3f4;
+  text-align: left;
+  padding: 50px 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.diagnodtic img{
+ width: 50px;
+}
 .go-top.active {
   top: 98%;
   -webkit-transform: translateY(-98%);
@@ -226,8 +245,33 @@ ul li{
 .blue{
   background-image: url(../img/blue-bg.png);
   background-repeat: no-repeat;
-  height: 100px;
+  height: 120px;
   padding: 20px;
+}
+#pro{
+  color: #fff;
+  font-weight: 400;
+}
+.chose-box{
+  background-color: #011632;
+  padding:  120px 30px 20px 170px;
+  width: 100%;
+  height: 100%;
+}
+/* .chose-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+.purple-box img{
+  width: 70px;
+  height: auto;
+}
+.purple-box{
+  margin-top: 30px;
+}
+#diag{
+  font-size: 20px;
 }
 .header{
   position: absolute;
