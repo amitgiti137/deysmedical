@@ -134,6 +134,30 @@ h2{
 .b-r{
   border-right: 1px solid #ffffff67;
 }
+.purpel {
+    width: 100px;
+    height: 3px;
+    background-color: #fff;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.con-text{
+  padding-top: 30px;
+}
+.con-text li{
+  color: #fff;
+  padding-top: 8px;
+  font-size: 18px;
+}
+.staigt{
+  color: #fff;
+}
+#com{
+  color: #fff;
+}
+.tt{
+  text-align: center;
+}
 .testi-box{
   background-color: #F5F5F5;
   color: #fff;
