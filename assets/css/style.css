@@ -345,7 +345,13 @@ border-bottom: 1px solid #fff;
 ::placeholder{
   color: #fff !important;
 }
-
+.accordion-item{
+  margin-bottom: 30px;
+  
+}
+.faq-text{
+  margin-top: 70px;
+}
 input[type="date"] {
   color: #fff;
 }
