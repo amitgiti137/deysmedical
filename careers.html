@@ -17,14 +17,12 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #C1DCFF;
+        }
+    </style>
 </head>
-
-<style>
-    body {
-        background-color: #C1DCFF;
-    }
-</style>
-
 
 <body>
 
@@ -192,219 +190,247 @@
         </section>
     </header>
 
-    <section class="banner2 mb">
+    <section class="h-[499px] bg-[url('assets/img/careers-banner.jpeg')] bg-cover bg-bottom">
         <div class="container">
             <div class="text-center">
-                <h1 id="rece">F.A.Q</h1>
-                <p id="white">
+                <h1 class="text-[40px] text-white pt-24">Unlock new career<br>
+                    opportunities at Deys Medicare </h1>
+                <!-- <p class="text-[20px] text-white">
                     Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore fugiat nulla pariatur
-                </p>
+                </p> -->
+                <!-- <p class="mt-2">
+                    <span class="text-white bg-[#006AF5] px-3 py-2 rounded-[5px]"><a href="index.html">Home</a> - <a
+                            href="careers.html">Careers</a></span>
+                </p> -->
             </div>
         </div>
     </section>
 
-    <section class="faq">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="faq-img">
-                        <img src="assets/img/girl-img.png" alt="" class="img-fluid">
+
+
+
+
+
+
+    <section class="bg-[#E7F1FF] pb-[20px] lg:pb-[40px]">
+
+        <div class="px-[5px] lg:px-[60px]">
+            <!-- Section Title -->
+            <h1 class="text-center text-2xl md:text-4xl font-semibold text-black py-6">Open Positions</h1>
+
+            <!-- Accordion -->
+            <div class="space-y-4">
+                <!-- First Position -->
+                <div class="bg-[#1376F8] text-white rounded-md">
+                    <div class="flex justify-between">
+                        <div class="w-full px-3 lg:px-16 py-3 text-lg">
+                            Apply for Telecaller
+                        </div>
+                        <div class="px-3 lg:px-16 py-3 cursor-pointer">
+                            <img src="assets/img/add-circle-white.png" alt="Toggle Button" class="toggle-content"
+                                data-target="telecaller-details1" data-add-src="assets/img/add-circle-white.png"
+                                data-minus-src="assets\img\minus-cirlce.png">
+                        </div>
+                    </div>
+                    <div id="telecaller-details1" class="bg-[#C2DDFF] text-black px-4 hidden">
+                        <div class="flex flex-col lg:flex-row items-start gap-4">
+                            <img src="assets/img/young-female-technical.png" alt="Telecaller" class="lg:pt-5" />
+                            <div>
+                                <p class="text-black lg:pt-[80px] text-[20px]">Telecallers are representatives who
+                                    contact existing clients and prospects to
+                                    generate sales. A telecaller is responsible for selling a product or service and
+                                    answering customer queries over the phone.</p>
+                                <ul class="list-disc list-inside mt-2">
+                                    <li>Duration: 6 months</li>
+                                    <li>Eligibility: Graduate</li>
+                                    <li>Fluency in: English, Bengali & Hindi</li>
+                                </ul>
+                                <button class="openOverlay mt-4 px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Apply
+                                    Now</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="faq-text">
-                        <h2>Frequently Asked Question?</h2>
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        01. What services does the Deys Medicare offer?
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Deys Medicare is strategically located for easy
-                                        access, ensuring that you can reach us conveniently
-                                        from various parts of the community. We also
-                                        provide accessibility.
-                                    </div>
-                                </div>
+
+                <!-- Second Position -->
+                <div class="bg-[#1376F8] text-white rounded-md">
+                    <div class="flex justify-between">
+                        <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg font-medium">
+                            Apply for Medical Representative
+                        </div>
+                        <div class="px-3 lg:px-16 py-3 cursor-pointer">
+                            <img src="assets/img/add-circle-white.png" alt="Toggle Button" class="toggle-content"
+                                data-target="telecaller-details2" data-add-src="assets/img/add-circle-white.png"
+                                data-minus-src="assets\img\minus-cirlce.png">
+                        </div>
+                    </div>
+                    <div id="telecaller-details2" class="bg-[#C2DDFF] text-black px-4 hidden">
+                        <div class="flex flex-col lg:flex-row items-start gap-4">
+                            <img src="assets/img/young-female-technical.png" alt="Telecaller" class="lg:pt-5" />
+                            <div>
+                                <p class="text-black lg:pt-[80px] text-[20px]">Telecallers are representatives who
+                                    contact existing clients and prospects to
+                                    generate sales. A telecaller is responsible for selling a product or service and
+                                    answering customer queries over the phone.</p>
+                                <ul class="list-disc list-inside mt-2">
+                                    <li>Duration: 6 months</li>
+                                    <li>Eligibility: Graduate</li>
+                                    <li>Fluency in: English, Bengali & Hindi</li>
+                                </ul>
+                                <button class="openOverlay mt-4 px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Apply
+                                    Now</button>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        02. How do I schedule an appointment?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third Position -->
+                <div class="bg-[#1376F8] text-white rounded-md">
+                    <div class="flex justify-between">
+                        <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg font-medium">
+                            Apply for Sales & Marketing
+                        </div>
+                        <div class="px-3 lg:px-16 py-3 cursor-pointer">
+                            <img src="assets/img/add-circle-white.png" alt="Toggle Button" class="toggle-content"
+                                data-target="telecaller-details3" data-add-src="assets/img/add-circle-white.png"
+                                data-minus-src="assets\img\minus-cirlce.png">
+                        </div>
+                    </div>
+                    <div id="telecaller-details3" class="bg-[#C2DDFF] text-black px-4 hidden">
+                        <div class="flex flex-col lg:flex-row items-start gap-4">
+                            <img src="assets/img/young-female-technical.png" alt="Telecaller" class="lg:pt-5" />
+                            <div>
+                                <p class="text-black lg:pt-[80px] text-[20px]">Telecallers are representatives who
+                                    contact existing clients and prospects to
+                                    generate sales. A telecaller is responsible for selling a product or service and
+                                    answering customer queries over the phone.</p>
+                                <ul class="list-disc list-inside mt-2">
+                                    <li>Duration: 6 months</li>
+                                    <li>Eligibility: Graduate</li>
+                                    <li>Fluency in: English, Bengali & Hindi</li>
+                                </ul>
+                                <button class="openOverlay mt-4 px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Apply
+                                    Now</button>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        03. What are the clinic hours of operation?
-                                    </button>
-                                </h2>
-                                <div id="collapsefour" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fourth Position -->
+                <div class="bg-[#1376F8] text-white rounded-md">
+                    <div class="flex justify-between">
+                        <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg font-medium">
+                            Apply for Ambulance Operator
+                        </div>
+                        <div class="px-3 lg:px-16 py-3 cursor-pointer">
+                            <img src="assets/img/add-circle-white.png" alt="Toggle Button" class="toggle-content"
+                                data-target="telecaller-details4" data-add-src="assets/img/add-circle-white.png"
+                                data-minus-src="assets\img\minus-cirlce.png">
+                        </div>
+                    </div>
+                    <div id="telecaller-details4" class="bg-[#C2DDFF] text-black px-4 hidden">
+                        <div class="flex flex-col lg:flex-row items-start gap-4">
+                            <img src="assets/img/young-female-technical.png" alt="Telecaller" class="lg:pt-5" />
+                            <div>
+                                <p class="text-black lg:pt-[80px] text-[20px]">Telecallers are representatives who
+                                    contact existing clients and prospects to
+                                    generate sales. A telecaller is responsible for selling a product or service and
+                                    answering customer queries over the phone.</p>
+                                <ul class="list-disc list-inside mt-2">
+                                    <li>Duration: 6 months</li>
+                                    <li>Eligibility: Graduate</li>
+                                    <li>Fluency in: English, Bengali & Hindi</li>
+                                </ul>
+                                <button class="openOverlay mt-4 px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Apply
+                                    Now</button>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsefour" aria-expanded="false"
-                                        aria-controls="collapsefour">
-                                        04. How do I schedule an appointment?
-                                    </button>
-                                </h2>
-                                <div id="collapsefour" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsefive" aria-expanded="false"
-                                        aria-controls="collapsefive">
-                                        05. What are the clinic hours of operation?
-                                    </button>
-                                </h2>
-                                <div id="collapsefive" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsesix" aria-expanded="false"
-                                        aria-controls="collapsesix">
-                                        06. How do I schedule an appointment?
-                                    </button>
-                                </h2>
-                                <div id="collapsesix" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseseven" aria-expanded="false"
-                                        aria-controls="collapseseven">
-                                        07.  What are the clinic hours of operation?
-                                    </button>
-                                </h2>
-                                <div id="collapseseven" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseeight" aria-expanded="false"
-                                        aria-controls="collapseeight">
-                                        08. How do I schedule an appointment?
-                                    </button>
-                                </h2>
-                                <div id="collapseeight" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsenine" aria-expanded="false"
-                                        aria-controls="collapsenine">
-                                        09.  What are the clinic hours of operation?
-                                    </button>
-                                </h2>
-                                <div id="collapsenine" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fifth Position -->
+                <div class="bg-[#1376F8] text-white rounded-md">
+                    <div class="flex justify-between align-items-center">
+                        <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg font-medium">
+                            Apply for Cashier & Counter
+                        </div>
+                        <div class="px-3 lg:px-16 py-3 cursor-pointer">
+                            <img src="assets/img/add-circle-white.png" alt="Toggle Button" class="toggle-content"
+                                data-target="telecaller-details5" data-add-src="assets/img/add-circle-white.png"
+                                data-minus-src="assets\img\minus-cirlce.png">
+                        </div>
+                    </div>
+                    <div id="telecaller-details5" class="bg-[#C2DDFF] text-black px-4 hidden">
+                        <div class="flex flex-col lg:flex-row items-start gap-4">
+                            <img src="assets/img/young-female-technical.png" alt="Telecaller" class="lg:pt-5" />
+                            <div>
+                                <p class="text-black lg:pt-[80px] text-[20px]">Telecallers are representatives who
+                                    contact existing clients and prospects to
+                                    generate sales. A telecaller is responsible for selling a product or service and
+                                    answering customer queries over the phone.</p>
+                                <ul class="list-disc list-inside mt-2">
+                                    <li>Duration: 6 months</li>
+                                    <li>Eligibility: Graduate</li>
+                                    <li>Fluency in: English, Bengali & Hindi</li>
+                                </ul>
+                                <button class="openOverlay mt-4 px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Apply
+                                    Now</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
+
+    <!-- Overlay Section -->
+    <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center z-50">
+        <div class="bg-[#1376F8] rounded-lg p-12 w-[100%] lg:w-[40%] h-[450px] text-white">
+            <h3 class="text-2xl lg:text-4xl text-bold mb-6">Enquiry Form</h3>
+            <form class="space-y-10">
+                <div class="flex justify-between gap-4">
+                    <div class="flex-1">
+                        <label class="block text-md font-medium">Your name:</label>
+                        <input type="text" class="w-full border-b border-white bg-transparent outline-none text-white focus:border-blue-300">
+                    </div>
+                    <div class="flex-1">
+                        <label class="block text-md font-medium">Phone no:</label>
+                        <input type="text" class="w-full border-b border-white bg-transparent outline-none text-white focus:border-blue-300">
+                    </div>
+                </div>
+                <div class="flex justify-between gap-4">
+                    <div class="flex-1">
+                        <label class="block text-md font-medium">Your email:</label>
+                        <input type="email" class="w-full border-b border-white bg-transparent outline-none text-white focus:border-blue-300">
+                    </div>
+                    <div class="flex-1">
+                        <label class="block text-md font-medium">Your designation</label>
+                        <input type="text" class="w-full border-b border-white bg-transparent outline-none text-white focus:border-blue-300">
+                    </div>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div class="flex-1">
+                        <label class="block text-md font-medium text-white flex items-center justify-between">
+                            <span>Attach your CV:</span>
+                            <img src="assets/img/link-2.png" alt="File Icon" class="w-6 h-6">
+                        </label>
+                        <input 
+                            type="file" 
+                            class="w-full border-b border-white bg-transparent outline-none text-white file:mr-4 file:py-2 file:px-4 file:rounded file:border-0 file:text-sm file:font-semibold file:bg-blue-600 file:text-white hover:file:bg-blue-700">
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <button type="submit" class="bg-white text-blue-500 font-bold py-2 px-6 rounded-lg mt-2 lg:mt-4">Submit Now</button>
+                </div>
+            </form>
+            <button id="closeOverlay">
+            </button>
+        </div>
+    </div>
+
+
+
 
     <div class="mt-12 -mb-[200px] lg:-mb-[300px] w-full">
         <div class="container mx-auto px-4">
@@ -545,6 +571,55 @@
                     1000: { items: 3 }
                 }
             });
+        });
+    </script>
+    <script>
+        document.querySelectorAll('.toggle-content').forEach((toggle) => {
+            toggle.addEventListener('click', (e) => {
+                const targetId = toggle.getAttribute('data-target');
+                const targetElement = document.getElementById(targetId);
+
+                const addSrc = toggle.getAttribute('data-add-src');
+                const minusSrc = toggle.getAttribute('data-minus-src');
+
+                if (targetElement) {
+                    // Toggle visibility of the target content
+                    targetElement.classList.toggle('hidden');
+
+                    // Switch image source based on visibility
+                    if (targetElement.classList.contains('hidden')) {
+                        toggle.src = addSrc; // Show add-circle
+                    } else {
+                        toggle.src = minusSrc; // Show minus-circle
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script>
+        // JavaScript to handle the overlay behavior
+        const overlay = document.getElementById('overlay');
+        const openButtons = document.querySelectorAll('.openOverlay'); // Select all buttons with the "open-overlay" class
+        const closeButton = document.getElementById('closeOverlay');
+
+        // Open Overlay for all buttons
+        openButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+                overlay.classList.remove('hidden');
+            });
+        });
+
+        // Close Overlay
+        closeButton.addEventListener('click', () => {
+            overlay.classList.add('hidden');
+        });
+
+        // Close Overlay by clicking on the overlay background
+        overlay.addEventListener('click', (event) => {
+            if (event.target === overlay) {
+                overlay.classList.add('hidden');
+            }
         });
     </script>
 </body>

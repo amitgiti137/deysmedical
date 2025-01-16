@@ -17,14 +17,12 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #C1DCFF;
+        }
+    </style>
 </head>
-
-<style>
-    body {
-        background-color: #C1DCFF;
-    }
-</style>
-
 
 <body>
 
@@ -192,219 +190,167 @@
         </section>
     </header>
 
-    <section class="banner2 mb">
+    <section class="h-[499px] bg-[url('assets/img/about-us.jpeg')] bg-cover bg-bottom">
         <div class="container">
             <div class="text-center">
-                <h1 id="rece">F.A.Q</h1>
-                <p id="white">
+                <h1 class="text-[40px] text-white pt-24">About Us</h1>
+                <p class="text-[20px] text-white pt-4">
                     Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore fugiat nulla pariatur
                 </p>
+                <!-- <p class="mt-2">
+                    <span class="text-white bg-[#006AF5] px-3 py-2 rounded-[5px]"><a href="index.html">Home</a> - <a
+                            href="about-us.html">About</a></span>
+                </p> -->
             </div>
         </div>
     </section>
 
-    <section class="faq">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="faq-img">
-                        <img src="assets/img/girl-img.png" alt="" class="img-fluid">
+    <section class="flex flex-wrap px-[10px] lg:px-[40px] pt-3 lg:py-12 bg-white gap-3 lg:gap-10 align-items-center ">
+        <div class="w-[100%] lg:w-[40%]">
+            <img src="assets/img/about-group.png" alt="">
+        </div>
+        <div class="w-[100%] lg:w-[55%]  bg-[url('assets/img/about-spiral.png')] bg-cover">
+            <div>
+                <p class="text-[#006AF5] text-[25px]">ABOUT US</p>
+                <p class="text-black text-[40px] leading-tight">Welcome to our<br>
+                    Deys Medicare</p>
+                <p class="text-[#515151] mt-3">We offer flexible appointment scheduling options to accommodate your busy
+                    lifestyle. Whether you
+                    prefer to book in advance or need. Your health and well-being are our top priorities.</p>
+            </div>
+            <div class="flex flex-wrap justify-between gap-3 lg:gap-0 mt-3">
+                <div class="flex flex-col gap-1 lg:gap-3">
+                    <div class="flex gap-2">
+                        <img src="assets/img/tick-circle.png" alt="">
+                        <p class="text-[#006AF5]">Medicine Delivery</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="assets/img/tick-circle.png" alt="">
+                        <p class="text-[#006AF5]">Doctor Consultation</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="assets/img/tick-circle.png" alt="">
+                        <p class="text-[#006AF5]">Lab Testing</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="faq-text">
-                        <h2>Frequently Asked Question?</h2>
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        01. What services does the Deys Medicare offer?
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Deys Medicare is strategically located for easy
-                                        access, ensuring that you can reach us conveniently
-                                        from various parts of the community. We also
-                                        provide accessibility.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        02. How do I schedule an appointment?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        03. What are the clinic hours of operation?
-                                    </button>
-                                </h2>
-                                <div id="collapsefour" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsefour" aria-expanded="false"
-                                        aria-controls="collapsefour">
-                                        04. How do I schedule an appointment?
-                                    </button>
-                                </h2>
-                                <div id="collapsefour" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsefive" aria-expanded="false"
-                                        aria-controls="collapsefive">
-                                        05. What are the clinic hours of operation?
-                                    </button>
-                                </h2>
-                                <div id="collapsefive" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsesix" aria-expanded="false"
-                                        aria-controls="collapsesix">
-                                        06. How do I schedule an appointment?
-                                    </button>
-                                </h2>
-                                <div id="collapsesix" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseseven" aria-expanded="false"
-                                        aria-controls="collapseseven">
-                                        07.  What are the clinic hours of operation?
-                                    </button>
-                                </h2>
-                                <div id="collapseseven" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseeight" aria-expanded="false"
-                                        aria-controls="collapseeight">
-                                        08. How do I schedule an appointment?
-                                    </button>
-                                </h2>
-                                <div id="collapseeight" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsenine" aria-expanded="false"
-                                        aria-controls="collapsenine">
-                                        09.  What are the clinic hours of operation?
-                                    </button>
-                                </h2>
-                                <div id="collapsenine" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="flex flex-col gap-1 lg:gap-3">
+                    <div class="flex gap-2">
+                        <img src="assets/img/tick-circle.png" alt="">
+                        <p class="text-[#006AF5]">Medicine Delivery</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="assets/img/tick-circle.png" alt="">
+                        <p class="text-[#006AF5]">Doctor Consultation</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="assets/img/tick-circle.png" alt="">
+                        <p class="text-[#006AF5]">Lab Testing</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-1 lg:gap-3">
+                    <div class="flex gap-2">
+                        <img src="assets/img/tick-circle.png" alt="">
+                        <p class="text-[#006AF5]">Medicine Delivery</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="assets/img/tick-circle.png" alt="">
+                        <p class="text-[#006AF5]">Doctor Consultation</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="assets/img/tick-circle.png" alt="">
+                        <p class="text-[#006AF5]">Lab Testing</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="bg-white px-[10px] lg:px-[40px] py-[10px] lg:py-[40px]">
+        <div class="flex flex-wrap justify-between gap-3 lg:gap-0">
+            <div
+                class="w-[100%] lg:w-[32%] h-[400px] px-5 rounded-[10px] bg-[#E6F6FE] flex flex-col justify-center align-items-center gap-3">
+                <div class="w-[130px] h-[130px] p-4 flex justify-center bg-white rounded-full"><img
+                        src="assets/img/Doctor.png" alt=""></div>
+                <p class="text-black text-[23px] lg:text-[30px]">Health Consultations</p>
+                <p class="text-black text-[14px] text-center">Vivamus class morbi cras ad condimentum cubilia
+                    elementum accumsan enim ligula bibendum
+                    pellentesque efficitur potenti</p>
+            </div>
+            <div
+                class="w-[100%] lg:w-[32%] h-[400px] px-5 rounded-[10px] bg-[#1376F8] flex flex-col justify-center align-items-center gap-3">
+                <div class="w-[130px] h-[130px] p-4 flex justify-center bg-white rounded-full"><img
+                        src="assets/img/Cardiogram.png" alt=""></div>
+                <p class="text-white text-[23px] lg:text-[30px]">Health Monitoring</p>
+                <p class="text-white text-[14px] text-center">Vivamus class morbi cras ad condimentum cubilia
+                    elementum accumsan enim ligula bibendum
+                    pellentesque efficitur potenti</p>
+            </div>
+            <div
+                class="w-[100%] lg:w-[32%] h-[400px] px-5 rounded-[10px] bg-[#E6F6FE] flex flex-col justify-center align-items-center gap-3">
+                <div class="w-[130px] h-[130px] p-4 flex justify-center bg-white rounded-full"><img
+                        src="assets/img/Delivery.png" alt=""></div>
+                <p class="text-black text-[23px] lg:text-[30px]">Medicine Delivery</p>
+                <p class="text-black text-[14px] text-center">Vivamus class morbi cras ad condimentum cubilia
+                    elementum accumsan enim ligula bibendum
+                    pellentesque efficitur potenti</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-[10px] lg:px-[40px] py-3 flex flex-wrap align-items-center bg-[url('assets/img/medicine-bottle.png')] bg-cover bg-center lg:h-screen w-full">
+        
+            <div class="">
+                <p class="text-white text-[16px]">OUR VALUE</p>
+                <p class="text-white text-[24px] lg:text-[45px] leading-tight">Make the Right Choice:<br>
+                    for Deys Medicare, Your Health Partner</p>
+                <p class="text-white lg:w-[50%] mt-2">Conubia praesent semper class euismod justo adipiscing venenatis
+                    hac potenti fusce. Lacus torquent posuere orci cras litora cubilia donec dignissim. Felis himenaeos
+                    platea urna ut id vulputate elit per lacus.</p>
+            </div>
+            <div class="flex flex-wrap justify-center lg:justify-start gap-3 mt-3 lg:mt-0">
+                <div
+                    class="w-[100%] lg:w-[25%] h-[300px] px-3 rounded-[10px] bg-white flex flex-col justify-center align-items-center gap-3">
+                    <div class="w-[100px] h-[100px] p-4 flex justify-center bg-[#1376F8] rounded-full"><img
+                            src="assets/img/Medical.png" alt=""></div>
+                    <p class="text-black text-[20px]">Our Vision</p>
+                    <p class="text-black text-[10px] text-center">To become an innovative leader in healthcare services, empowering communities to take full control of their health through holistic and cutting-edge solutions.</p>
+                </div>
+                <div
+                    class="w-[100%] lg:w-[25%] h-[300px] px-3 rounded-[10px] bg-white flex flex-col justify-center align-items-center gap-3">
+                    <div class="w-[100px] h-[100px] p-4 flex justify-center bg-[#1376F8] rounded-full"><img
+                            src="assets/img/Stethoscope.png" alt=""></div>
+                    <p class="text-black text-[20px]">Our Mission</p>
+                    <p class="text-black text-[10px] text-center">Empowering Personal Health: Provide tools and resources to help
+                        individuals manage and enhance
+                        their personal health</p>
+                </div>
+            </div>
+        
+    </section>
+
+    <section class="bg-[#011632] h-[200px] flex justify-center align-items-center">
+        <div class="flex text-center">
+            <div class="border-r border-white h-[75px] lg:h-[100px] w-20 lg:w-64">
+                <p class="text-[20px] lg:text-[40px] text-white">69k+</p>
+                <p class="text-[12px] lg:text-[16px] text-white">Satisfied Patients</p>
+            </div>
+            <div class="border-r border-white h-[75px] lg:h-[100px] w-20 lg:w-64">
+                <p class="text-[20px] lg:text-[40px] text-white">236+</p>
+                <p class="text-[12px] lg:text-[16px] text-white">Medicine Delivery</p>
+            </div>
+            <div class="border-r border-white h-[75px] lg:h-[100px] w-20 lg:w-64">
+                <p class="text-[20px] lg:text-[40px] text-white">42+</p>
+                <p class="text-[12px] lg:text-[16px] text-white">Years of Experience</p>
+            </div>
+            <div class="w-20 lg:w-64">
+                <p class="text-[20px] lg:text-[40px] text-white">320+</p>
+                <p class="text-[12px] lg:text-[16px] text-white">Ambulance Services</p>
+            </div>
+        </div>
+    </section>
+
+
+
 
     <div class="mt-12 -mb-[200px] lg:-mb-[300px] w-full">
         <div class="container mx-auto px-4">
