@@ -36,6 +36,23 @@
             /* For Firefox */
         }
     </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    animation: {
+                        marquee: 'marquee 50s linear infinite',
+                    },
+                    keyframes: {
+                        marquee: {
+                            '0%': { transform: 'translateX(0%)' },
+                            '100%': { transform: 'translateX(-100%)' }, /* Moves only half to allow looping */
+                        }
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -219,6 +236,24 @@
                 </p> -->
             </div>
         </div>
+    </section>
+
+    <section class="bg-white flex items-center justify-center">
+        <!-- Scrolling Section -->
+    <div class="overflow-hidden w-full bg-white py-1">
+        <div class="flex animate-marquee w-[400%]">
+            <div class="flex space-x-8">
+                <img src="assets/img/Shining.png" alt="Image 1" class="h-5 lg:h-10">
+                <img src="assets/img/get-30.png" alt="Image 2" class="h-7 lg:h-16">
+                <img src="assets/img/Shining.png" alt="Image 1" class="h-5 lg:h-10">
+                <img src="assets/img/get-30.png" alt="Image 2" class="h-7 lg:h-16">
+                <img src="assets/img/Shining.png" alt="Image 1" class="h-5 lg:h-10">
+                <img src="assets/img/get-30.png" alt="Image 2" class="h-7 lg:h-16">
+                <img src="assets/img/Shining.png" alt="Image 1" class="h-5 lg:h-10">
+                <img src="assets/img/get-30.png" alt="Image 2" class="h-7 lg:h-16">
+            </div>
+        </div>
+    </div>
     </section>
 
     <section class="bg-white pb-10">
