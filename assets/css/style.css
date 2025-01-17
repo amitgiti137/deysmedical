@@ -127,6 +127,14 @@ p {
   line-height: 120%;
   letter-spacing: 0%;
 }
+#latest {
+  font-family: outfit;
+  font-weight: medium;
+  color: black;
+  font-size: 50px;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
 
 @media (max-width: 767px) {
   #prov {
@@ -143,6 +151,16 @@ p {
     font-family: outfit;
     font-weight: regular;
     color: #1376F8;
+    font-size: 25px;
+    line-height: 155%;
+    letter-spacing: 0%;
+  }
+}
+@media (max-width: 767px) {
+  #latest {
+    font-family: outfit;
+    font-weight: regular;
+    color: black;
     font-size: 25px;
     line-height: 155%;
     letter-spacing: 0%;
