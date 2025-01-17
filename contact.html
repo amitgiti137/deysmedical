@@ -83,66 +83,9 @@ header.sticky
         </div>
     </section>
 
-    <div class="scrolling-text-container">
-        <div class="scrolling-text-inner" style="--marquee-speed: 30s; --direction:scroll-left" role="marquee">
-            <div class="scrolling-text">
-                <div class="scrolling-text-item">
-                    <p id="white">Call us for any emergency cases : 1-300-400-8211</p>
-                </div>
-                <div class="scrolling-text-item">
-                    <p id="white">Call us for any emergency cases : 1-300-400-8211</p>
-                </div>
-                <!-- Add More Items Here -->
-            </div>
-            <div class="scrolling-text">
-                <div class="scrolling-text-item">
-                    <p id="white">Call us for any emergency cases : 1-300-400-8211</p>
-                </div>
-                <div class="scrolling-text-item">
-                    <p id="white">Call us for any emergency cases : 1-300-400-8211</p>
-                </div>
-                <!-- Add More Items Here -->
-            </div>
-            <div class="scrolling-text">
-                <div class="scrolling-text-item">
-                    <p id="white">Call us for any emergency cases : 1-300-400-8211</p>
-                </div>
-                <div class="scrolling-text-item">
-                    <p id="white">Call us for any emergency cases : 1-300-400-8211</p>
-                </div>
-                <!-- Add More Items Here -->
-            </div>
-            <div class="scrolling-text">
-                <div class="scrolling-text-item">
-                    <p id="white">Call us for any emergency cases : 1-300-400-8211</p>
-                </div>
-                <div class="scrolling-text-item">
-                    <p id="white">Call us for any emergency cases : 1-300-400-8211</p>
-                </div>
-                <!-- Add More Items Here -->
-            </div>
-            <div class="scrolling-text">
-                <div class="scrolling-text-item">
-                    <p id="white">Call us for any emergency cases : 1-300-400-8211</p>
-                </div>
-                <div class="scrolling-text-item">
-                    <p id="white">Call us for any emergency cases : 1-300-400-8211</p>
-                </div>
-                <!-- Add More Items Here -->
-            </div>
-            <div class="scrolling-text">
-                <div class="scrolling-text-item">
-                    <p id="white">Call us for any emergency cases : 1-300-400-8211</p>
-                </div>
-                <div class="scrolling-text-item">
-                    <p id="white">Call us for any emergency cases : 1-300-400-8211</p>
-                </div>
-                <!-- Add More Items Here -->
-            </div>
-        </div>
-    </div>
+    
     <header>
-        <section class="header" id="header">
+        <section class="header1" id="header">
             <div class="container">
                 <div class="header-sec">
                     <div class="d-flex align-items-center gap-3">
@@ -150,20 +93,20 @@ header.sticky
                             <img src="assets/img/Line.png" alt="">
                         </div>
 
-                        <div class="d-none d-md-flex gap-3">
+                        <div class="d-flex d-md-flex gap-3">
 
                             <div>
-                                <a href="about-us.html" target="_blank" class="sign m-right">
+                                <a href="about-us.html" class="sign m-right">
                                     About Us
                                 </a>
                             </div>
                             <div>
-                                <a href="services.html" target="_blank" class="sign">
-                                    Services
+                                <a href="ambulance-services.html" class="sign">
+                                    Services+
                                 </a>
                             </div>
                             <div>
-                                <a href="faq.html" target="_blank" class="sign">
+                                <a href="faq.html" class="sign">
                                     Faq
                                 </a>
                             </div>
@@ -198,13 +141,18 @@ header.sticky
         </section>
     </header>
 
-    <section class="banner2">
+
+    <section class="h-[399px] bg-[url('assets/img/contact-banner.jpeg')] bg-cover bg-bottom">
         <div class="container">
             <div class="text-center">
-                <h1 id="rece">Contact Us</h1>
-                <p id="white">
+                <h1 class="text-[40px] text-white pt-24">Contact Us</h1>
+                <p class="text-[20px] text-white pt-4">
                     Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore fugiat nulla pariatur
                 </p>
+                <!-- <p class="mt-2">
+                    <span class="text-white bg-[#006AF5] px-3 py-2 rounded-[5px]"><a href="index.html">Home</a> - <a
+                            href="about-us.html">About</a></span>
+                </p> -->
             </div>
         </div>
     </section>
@@ -213,8 +161,8 @@ header.sticky
         <div class="container">
             <div class="text-center">
                 <h5 id="prov">GET IN TOUCH</h5>
-                <h2 style="text-align: center;">Feel Free To Contact</h2>
-                <div class="row">
+                <h2 class="text-xl md:text-3xl lg:text-4xl font-bold text-center" style="text-align: center;" >Feel Free To Contact</h2>
+                <div class="row space-y-4 md:space-y-0">
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="con-box">
                             <div class="d-flex">
@@ -261,58 +209,42 @@ header.sticky
         </div>
     </section>
 
-    <section class="enquire">
-        <div class="container-fluid">
-            <div class="en-box">
-                <div class="row g-0">
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <div class="blues"></div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <div class="blue-img">
-                            <img src="assets/img/girl.png" alt="" class="img-fluid">
+    <section class="relative bg-cover h-auto" style="background-image: url('assets/img/girl-navy-blue.png');">
+        <div class="bg-contain bg-no-repeat bg-left" style="background-image: url('assets/img/spiral-blue.png');">
+            <div class="container ps-[5px] lg:ps-[250px] py-[20px] lg:py-[150px] flex flex-col md:flex-row items-center justify-between">
+                <!-- Enquiry Form -->
+                <div class="bg-[#1376F8] rounded-lg p-12 w-[100%] lg:w-[50%] h-[400px] text-white">
+                    <h3 class="text-2xl lg:text-4xl text-bold mb-6">Enquiry Form</h3>
+                    <form class="space-y-10">
+                        <div class="flex justify-between gap-4">
+                            <div class="flex-1">
+                                <label class="block text-md font-medium">Your name:</label>
+                                <input type="text" class="w-full border-b border-white bg-transparent outline-none text-white focus:border-blue-300">
+                            </div>
+                            <div class="flex-1">
+                                <label class="block text-md font-medium">Phone no:</label>
+                                <input type="text" class="w-full border-b border-white bg-transparent outline-none text-white focus:border-blue-300">
+                            </div>
                         </div>
-                    </div>
+                        <div class="flex justify-between gap-4">
+                            <div class="flex-1">
+                                <label class="block text-md font-medium">Your email:</label>
+                                <input type="email" class="w-full border-b border-white bg-transparent outline-none text-white focus:border-blue-300">
+                            </div>
+                            <div class="flex-1">
+                                <label class="block text-md font-medium">Date:</label>
+                                <input type="date" class="w-full border-b border-white bg-transparent outline-none text-white focus:border-blue-300">
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <button type="submit" class="bg-white text-blue-500 font-bold py-2 px-6 rounded-lg mt-2 lg:mt-4">Submit Now</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="enquiry-form">
-                    <form action="">
-                        <h3 id="en-f">Enquiry Form</h3>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-12">
-                                <div class="mb-4">
-                                    <input type="text" class="form-control" placeholder="Your Name" required>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-12">
-                                <div class="mb-4">
-                                    <input type="email" class="form-control" placeholder="Email" required>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-12">
-                                <div class="mb-4">
-                                <input type="text" class="form-control" placeholder="Phone No" required>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-12">
-                                <div class="mb-4">
-                                    <input type="date" class="form-control" required>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-12">
-                                <div class="form-floating mb-4">
-                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <button type="button" class="btn bg-white">Submit Now</button>
-                        </div>
-                     </div>
-                </form>
-             </div>
-           </div>
+            </div>
         </div>
     </section>
+
 
     <section class="map">
         <iframe

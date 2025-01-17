@@ -173,20 +173,20 @@
                             <img src="assets/img/Line.png" alt="">
                         </div>
 
-                        <div class="d-none d-md-flex gap-3">
+                        <div class="d-flex d-md-flex gap-3">
 
                             <div>
-                                <a href="about-us.html" target="_blank" class="sign m-right">
+                                <a href="about-us.html" class="sign m-right">
                                     About Us
                                 </a>
                             </div>
                             <div>
-                                <a href="services.html" target="_blank" class="sign">
-                                    Services
+                                <a href="ambulance-services.html" class="sign">
+                                    Services+
                                 </a>
                             </div>
                             <div>
-                                <a href="faq.html" target="_blank" class="sign">
+                                <a href="faq.html" class="sign">
                                     Faq
                                 </a>
                             </div>
@@ -221,7 +221,7 @@
         </section>
     </header>
 
-    <section class="h-[499px] bg-[url('assets/img/doctors-consultation.jpeg')] bg-cover bg-bottom">
+    <section class="h-[399px] bg-[url('assets/img/doctors-consultation.jpeg')] bg-cover bg-bottom">
         <div class="container">
             <div class="text-center">
                 <h1 class="text-[40px] text-white pt-24">Doctor Consultation</h1>
@@ -260,7 +260,7 @@
             <div class="mx-[5px] lg:mx-[200px] flex justify-between mb-8 relative">
                 <!-- Private Dropdown -->
                 <div class="relative w-[30%] lg:w-[20%]">
-                    <button class="bg-[#1376F8] text-2xl w-full text-white py-3 px-6 rounded-md font-medium focus:outline-none"
+                    <button class="bg-[#1376F8] flex justify-center text-xl lg:text-2xl w-full text-white py-3 px-6 rounded-md font-medium focus:outline-none"
                         onclick="toggleDropdown('privateDropdown')">
                         Private
                     </button>
@@ -273,7 +273,7 @@
 
                 <!-- Govt. Dropdown -->
                 <div class="relative w-[30%] lg:w-[20%]">
-                    <button class="bg-[#1376F8] text-2xl w-full text-white py-3 px-6 rounded-md font-medium focus:outline-none"
+                    <button class="bg-[#1376F8] flex justify-center text-xl lg:text-2xl w-full text-white py-3 px-6 rounded-md font-medium focus:outline-none"
                         onclick="toggleDropdown('govtDropdown')">
                         Govt.
                     </button>
@@ -286,7 +286,7 @@
 
                 <!-- Others Dropdown -->
                 <div class="relative w-[30%] lg:w-[20%]">
-                    <button class="bg-[#1376F8] text-2xl w-full text-white py-3 px-6 rounded-md font-medium focus:outline-none"
+                    <button class="bg-[#1376F8] flex justify-center text-xl lg:text-2xl w-full text-white py-3 px-6 rounded-md font-medium focus:outline-none"
                         onclick="toggleDropdown('othersDropdown')">
                         Others
                     </button>
@@ -383,196 +383,193 @@
         </div>
     </section>
 
-    <section class="bg-white lg:pt-10">
-
-        <div class="px-[5px] lg:px-[60px]">
-            <!-- Section Title -->
-            <h1 class="text-center text-2xl md:text-4xl font-semibold text-black py-6">F.A.Q</h1>
-
-            <!-- Accordion -->
-            <div class="space-y-4 bg-[#CEEAE7] w-[100%] lg:w-[70%] mx-auto px-[5px] py-[5px] lg:px-[200px] lg:py-[50px]">
-                <!-- First Position -->
-                <div class="bg-white text-black rounded-md">
-                    <div class="flex justify-between">
-                        <div class="w-full px-2 py-3 text-sm lg:text-lg">
-                            01. How do I schedule an online consultation with a doctor?
-                        </div>
-                        <div class="px-2 lg:px-16 py-3 cursor-pointer">
-                            <img src="assets/img/add-circle.png" alt="Toggle Button" class="toggle-content"
-                                data-target="telecaller-details1" data-add-src="assets/img/add-circle.png"
-                                data-minus-src="assets\img\minus-cirlce-green.png">
-                        </div>
-                    </div>
-                    <div id="telecaller-details1" class="bg-white text-black px-4 hidden">
-                        <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg">
-                            You can schedule an online consultation with a doctor
-                            by downloading and signing up for the
-                            Deys Medicare app.
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Second Position -->
-                <div class="bg-white text-black rounded-md">
-                    <div class="flex justify-between">
-                        <div class="w-full px-2 lg:px-16 py-3 text-sm lg:text-lg">
-                            02. Can I have an online consultation with my regular doctor?
-                        </div>
-                        <div class="px-2 lg:px-16 py-3 cursor-pointer">
-                            <img src="assets/img/add-circle.png" alt="Toggle Button" class="toggle-content"
-                                data-target="telecaller-details2" data-add-src="assets/img/add-circle.png"
-                                data-minus-src="assets\img\minus-cirlce-green.png">
-                        </div>
-                    </div>
-                    <div id="telecaller-details2" class="bg-white text-black px-4 hidden">
-                        <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg">
-                            You can schedule an online consultation with a doctor
-                            by downloading and signing up for the
-                            Deys Medicare app.
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Third Position -->
-                <div class="bg-white text-black rounded-md">
-                    <div class="flex justify-between">
-                        <div class="w-full px-2 lg:px-16 py-3 text-sm lg:text-lg">
-                            03. Can I receive a diagnosis through an online doctor
-                            consultation?
-                        </div>
-                        <div class="px-2 lg:px-16 py-3 cursor-pointer">
-                            <img src="assets/img/add-circle.png" alt="Toggle Button" class="toggle-content"
-                                data-target="telecaller-details3" data-add-src="assets/img/add-circle.png"
-                                data-minus-src="assets\img\minus-cirlce-green.png">
-                        </div>
-                    </div>
-                    <div id="telecaller-details3" class="bg-white text-black px-4 hidden">
-                        <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg">
-                            You can schedule an online consultation with a doctor
-                            by downloading and signing up for the
-                            Deys Medicare app.
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Fourth Position -->
-                <div class="bg-white text-black rounded-md">
-                    <div class="flex justify-between">
-                        <div class="w-full px-2 lg:px-16 py-3 text-sm lg:text-lg">
-                            04. How long does an online consultation typically last?
-                        </div>
-                        <div class="px-2 lg:px-16 py-3 cursor-pointer">
-                            <img src="assets/img/add-circle.png" alt="Toggle Button" class="toggle-content"
-                                data-target="telecaller-details4" data-add-src="assets/img/add-circle.png"
-                                data-minus-src="assets\img\minus-cirlce-green.png">
-                        </div>
-                    </div>
-                    <div id="telecaller-details4" class="bg-white text-black px-4 hidden">
-                        <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg">
-                            You can schedule an online consultation with a doctor
-                            by downloading and signing up for the
-                            Deys Medicare app.
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Fifth Position -->
-                <div class="bg-white text-black rounded-md">
-                    <div class="flex justify-between">
-                        <div class="w-full px-2 lg:px-16 py-3 text-sm lg:text-lg">
-                            05. Why choose Deys medicare Premium for an online
-                            doctor consultation?
-                        </div>
-                        <div class="px-2 lg:px-16 py-3 cursor-pointer">
-                            <img src="assets/img/add-circle.png" alt="Toggle Button" class="toggle-content"
-                                data-target="telecaller-details5" data-add-src="assets/img/add-circle.png"
-                                data-minus-src="assets\img\minus-cirlce-green.png">
-                        </div>
-                    </div>
-                    <div id="telecaller-details5" class="bg-white text-black px-4 hidden">
-                        <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg">
-                            You can schedule an online consultation with a doctor
-                            by downloading and signing up for the
-                            Deys Medicare app.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
 
 
 
     <section class="bg-white px-[5px] lg:px-[60px] py-[5px] lg:py-[40px] text-center">
-        <div class="py-12">
-            <div class="container">
+        <div class="bg-contain bg-no-repeat bg-left-top" style="background-image: url('assets/img/spiral-left.png');">
+            <div class="py-12">
+                <div class="container">
+                    <!-- Section Title -->
+                    <h4 class="text-[#1376F8] text-lg font-bold mb-2">WORK PROCESS</h4>
+                    <h2 class="text-2xl lg:text-5xl font-bold text-black mb-8 text-center">Let’s See How We Work</h2>
+    
+                    <!-- Steps -->
+                    <div class="flex flex-col md:flex-row lg:flex-row justify-center items-center gap-8">
+                        <!-- Step 1 -->
+                        <div class="flex flex-col items-center text-center">
+                            <div class="rounded-full border-1 border-[#1376F8] border-dashed p-2">
+                                <img src="assets/img/work.png" alt="Get Report" class="rounded-full w-40 h-40">
+                            </div>
+                            <h3 class="text-xl font-semibold text-[#1376F8] mt-4">Patient Registration</h3>
+                            <p class="text-black mt-2 text-sm">
+                                The first step in our process is to welcome our patients and ensure they have a great
+                                experience.
+                            </p>
+                        </div>
+    
+                        <!-- Arrow -->
+                        <div class="hidden md:block text-blue-500 text-2xl -mt-28">
+                            <img src="assets/img/Arrow-blue.png" alt="">
+                        </div>
+    
+                        <!-- Step 2 -->
+                        <div class="flex flex-col items-center text-center">
+                            <div class="rounded-full border-1 border-[#1376F8] border-dashed p-2">
+                                <img src="assets/img/work.png" alt="Get Report" class="rounded-full w-40 h-40">
+                            </div>
+                            <h3 class="text-xl font-semibold text-[#1376F8] mt-4">Check-Ups</h3>
+                            <p class="text-black mt-2 text-sm">
+                                Once the patient is checked in, healthcare professionals conduct a thorough evaluation.
+                            </p>
+                        </div>
+    
+                        <!-- Arrow -->
+                        <div class="hidden md:block text-blue-500 text-2xl -mt-28">
+                            <img src="assets/img/Arrow-blue.png" alt="">
+                        </div>
+    
+                        <!-- Step 3 -->
+                        <div class="flex flex-col items-center text-center">
+                            <div class="rounded-full border-1 border-[#1376F8] border-dashed p-2">
+                                <img src="assets/img/work.png" alt="Get Report" class="rounded-full w-40 h-40">
+                            </div>
+                            <h3 class="text-xl font-semibold text-[#1376F8] mt-4">Get Report</h3>
+                            <p class="text-black mt-2 text-sm">
+                                Analyzing the result of diagnostic tests and incorporating them into the diagnosis.
+                            </p>
+                        </div>
+    
+                        <!-- Arrow -->
+                        <div class="hidden md:block text-blue-500 text-2xl -mt-28">
+                            <img src="assets/img/Arrow-blue.png" alt="">
+                        </div>
+    
+                        <!-- Step 4 -->
+                        <div class="flex flex-col items-center text-center">
+                            <div class="rounded-full border-1 border-[#1376F8] border-dashed p-2">
+                                <img src="assets/img/work.png" alt="Ongoing Care" class="rounded-full w-40 h-40">
+                            </div>
+                            <h3 class="text-xl font-semibold text-[#1376F8] mt-4">Ongoing Care</h3>
+                            <p class="text-black mt-2 text-sm">
+                                Our commitment to our patients extends beyond the initial visit. We ensure continuity of
+                                care.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-left px-[5px] lg:px-[60px]">
                 <!-- Section Title -->
-                <h4 class="text-[#1376F8] text-lg font-bold mb-2">WORK PROCESS</h4>
-                <h2 class="text-2xl lg:text-5xl font-bold text-black mb-8 text-center">Let’s See How We Work</h2>
-
-                <!-- Steps -->
-                <div class="flex flex-col md:flex-row lg:flex-row justify-center items-center gap-8">
-                    <!-- Step 1 -->
-                    <div class="flex flex-col items-center text-center">
-                        <div class="rounded-full border-1 border-[#1376F8] border-dashed p-2">
-                            <img src="assets/img/work.png" alt="Get Report" class="rounded-full w-40 h-40">
+                <h1 class="text-center text-2xl md:text-4xl font-semibold text-black py-6">F.A.Q</h1>
+    
+                <!-- Accordion -->
+                <div class="space-y-4 bg-[#CEEAE7] w-[100%] lg:w-[70%] mx-auto px-[5px] py-[5px] lg:px-[100px] lg:py-[50px]">
+                    <!-- First Position -->
+                    <div class="bg-white text-black rounded-md">
+                        <div class="flex justify-between">
+                            <div class="w-full px-2 py-3 text-sm lg:text-lg">
+                                01. How do I schedule an online consultation with a doctor?
+                            </div>
+                            <div class="px-2 lg:px-16 py-3 cursor-pointer">
+                                <img src="assets/img/add-circle.png" alt="Toggle Button" class="toggle-content"
+                                    data-target="telecaller-details1" data-add-src="assets/img/add-circle.png"
+                                    data-minus-src="assets\img\minus-cirlce-green.png">
+                            </div>
                         </div>
-                        <h3 class="text-xl font-semibold text-[#1376F8] mt-4">Patient Registration</h3>
-                        <p class="text-black mt-2 text-sm">
-                            The first step in our process is to welcome our patients and ensure they have a great
-                            experience.
-                        </p>
-                    </div>
-
-                    <!-- Arrow -->
-                    <div class="hidden md:block text-blue-500 text-2xl -mt-28">
-                        <img src="assets/img/Arrow-blue.png" alt="">
-                    </div>
-
-                    <!-- Step 2 -->
-                    <div class="flex flex-col items-center text-center">
-                        <div class="rounded-full border-1 border-[#1376F8] border-dashed p-2">
-                            <img src="assets/img/work.png" alt="Get Report" class="rounded-full w-40 h-40">
+                        <div id="telecaller-details1" class="bg-white text-black px-4 hidden">
+                            <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg">
+                                You can schedule an online consultation with a doctor
+                                by downloading and signing up for the
+                                Deys Medicare app.
+                            </div>
                         </div>
-                        <h3 class="text-xl font-semibold text-[#1376F8] mt-4">Check-Ups</h3>
-                        <p class="text-black mt-2 text-sm">
-                            Once the patient is checked in, healthcare professionals conduct a thorough evaluation.
-                        </p>
                     </div>
-
-                    <!-- Arrow -->
-                    <div class="hidden md:block text-blue-500 text-2xl -mt-28">
-                        <img src="assets/img/Arrow-blue.png" alt="">
-                    </div>
-
-                    <!-- Step 3 -->
-                    <div class="flex flex-col items-center text-center">
-                        <div class="rounded-full border-1 border-[#1376F8] border-dashed p-2">
-                            <img src="assets/img/work.png" alt="Get Report" class="rounded-full w-40 h-40">
+    
+                    <!-- Second Position -->
+                    <div class="bg-white text-black rounded-md">
+                        <div class="flex justify-between">
+                            <div class="w-full px-2 lg:px-16 py-3 text-sm lg:text-lg">
+                                02. Can I have an online consultation with my regular doctor?
+                            </div>
+                            <div class="px-2 lg:px-16 py-3 cursor-pointer">
+                                <img src="assets/img/add-circle.png" alt="Toggle Button" class="toggle-content"
+                                    data-target="telecaller-details2" data-add-src="assets/img/add-circle.png"
+                                    data-minus-src="assets\img\minus-cirlce-green.png">
+                            </div>
                         </div>
-                        <h3 class="text-xl font-semibold text-[#1376F8] mt-4">Get Report</h3>
-                        <p class="text-black mt-2 text-sm">
-                            Analyzing the result of diagnostic tests and incorporating them into the diagnosis.
-                        </p>
-                    </div>
-
-                    <!-- Arrow -->
-                    <div class="hidden md:block text-blue-500 text-2xl -mt-28">
-                        <img src="assets/img/Arrow-blue.png" alt="">
-                    </div>
-
-                    <!-- Step 4 -->
-                    <div class="flex flex-col items-center text-center">
-                        <div class="rounded-full border-1 border-[#1376F8] border-dashed p-2">
-                            <img src="assets/img/work.png" alt="Ongoing Care" class="rounded-full w-40 h-40">
+                        <div id="telecaller-details2" class="bg-white text-black px-4 hidden">
+                            <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg">
+                                You can schedule an online consultation with a doctor
+                                by downloading and signing up for the
+                                Deys Medicare app.
+                            </div>
                         </div>
-                        <h3 class="text-xl font-semibold text-[#1376F8] mt-4">Ongoing Care</h3>
-                        <p class="text-black mt-2 text-sm">
-                            Our commitment to our patients extends beyond the initial visit. We ensure continuity of
-                            care.
-                        </p>
+                    </div>
+    
+                    <!-- Third Position -->
+                    <div class="bg-white text-black rounded-md">
+                        <div class="flex justify-between">
+                            <div class="w-full px-2 lg:px-16 py-3 text-sm lg:text-lg">
+                                03. Can I receive a diagnosis through an online doctor
+                                consultation?
+                            </div>
+                            <div class="px-2 lg:px-16 py-3 cursor-pointer">
+                                <img src="assets/img/add-circle.png" alt="Toggle Button" class="toggle-content"
+                                    data-target="telecaller-details3" data-add-src="assets/img/add-circle.png"
+                                    data-minus-src="assets\img\minus-cirlce-green.png">
+                            </div>
+                        </div>
+                        <div id="telecaller-details3" class="bg-white text-black px-4 hidden">
+                            <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg">
+                                You can schedule an online consultation with a doctor
+                                by downloading and signing up for the
+                                Deys Medicare app.
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Fourth Position -->
+                    <div class="bg-white text-black rounded-md">
+                        <div class="flex justify-between">
+                            <div class="w-full px-2 lg:px-16 py-3 text-sm lg:text-lg">
+                                04. How long does an online consultation typically last?
+                            </div>
+                            <div class="px-2 lg:px-16 py-3 cursor-pointer">
+                                <img src="assets/img/add-circle.png" alt="Toggle Button" class="toggle-content"
+                                    data-target="telecaller-details4" data-add-src="assets/img/add-circle.png"
+                                    data-minus-src="assets\img\minus-cirlce-green.png">
+                            </div>
+                        </div>
+                        <div id="telecaller-details4" class="bg-white text-black px-4 hidden">
+                            <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg">
+                                You can schedule an online consultation with a doctor
+                                by downloading and signing up for the
+                                Deys Medicare app.
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Fifth Position -->
+                    <div class="bg-white text-black rounded-md">
+                        <div class="flex justify-between">
+                            <div class="w-full px-2 lg:px-16 py-3 text-sm lg:text-lg">
+                                05. Why choose Deys medicare Premium for an online
+                                doctor consultation?
+                            </div>
+                            <div class="px-2 lg:px-16 py-3 cursor-pointer">
+                                <img src="assets/img/add-circle.png" alt="Toggle Button" class="toggle-content"
+                                    data-target="telecaller-details5" data-add-src="assets/img/add-circle.png"
+                                    data-minus-src="assets\img\minus-cirlce-green.png">
+                            </div>
+                        </div>
+                        <div id="telecaller-details5" class="bg-white text-black px-4 hidden">
+                            <div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg">
+                                You can schedule an online consultation with a doctor
+                                by downloading and signing up for the
+                                Deys Medicare app.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
