@@ -47,6 +47,7 @@ a {
 .header a {
   color: #fff;
 }
+
 .header1 a {
   color: #fff;
 }
@@ -111,8 +112,55 @@ p {
 }
 
 #prov {
+  font-family: outfit;
+  font-weight: regular;
   color: #1376F8;
-  font-size: 18px;
+  font-size: 25px;
+  line-height: 155%;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 767px) {
+  #prov {
+    font-family: outfit;
+    font-weight: regular;
+    color: #1376F8;
+    font-size: 12px;
+    line-height: 155%;
+    letter-spacing: 0%;
+  }
+}
+
+#our {
+  font-family: outfit;
+  font-weight: medium;
+  font-size: 60px;
+  line-height: 120%;
+  letter-spacing: 2%;
+}
+
+@media (max-width: 767px) {
+  #our {
+    font-family: outfit;
+    font-weight: medium;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 2%;
+  }
+}
+
+#mole {
+  font-family: outfit;
+  font-weight: regular;
+  font-size: 15px;
+}
+
+@media (max-width: 767px) {
+  #mole {
+    font-family: outfit;
+    font-weight: regular;
+    font-size: 10px;
+  }
 }
 
 h2 {
@@ -124,9 +172,10 @@ h2 {
 }
 
 .text-img {
-  padding-top: 50px;
+  padding-top: 0px;
 }
-@media (max-width:767px){
+
+@media (max-width:767px) {
   .text-img {
     padding-top: 10px;
   }
@@ -134,8 +183,9 @@ h2 {
 
 @media (max-width:767px) {
   .text-img h2 br {
-    display: none; /* Hide <br> tags on mobile */
-}
+    display: none;
+    /* Hide <br> tags on mobile */
+  }
 }
 
 .pro-img {
@@ -145,7 +195,7 @@ h2 {
 .pro-tex {
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 5%;
   width: 22%;
 }
 
@@ -164,11 +214,28 @@ h2 {
   }
 
   .pro-tex h3 {
-    font-size: 14px;
+    font-family: outfit;
+    font-size: 30px;
+    font-weight: medium;
+    line-height: 140%;
+    letter-spacing: 2%;
     /* Adjust font size for mobile */
     ;
     /* Improve readability */
   }
+
+  @media (max-width: 767px) {
+    .pro-tex h3 {
+      font-family: outfit;
+      font-size: 15px;
+      font-weight: medium;
+      line-height: 140%;
+      letter-spacing: 2%;
+
+    }
+  }
+
+
 
   .pro-tex p {
     font-size: 10px;
@@ -620,24 +687,33 @@ ul li {
 }
 
 .chose-box h2 {
-  font-size: 35px; /* Larger text for this section only */
+  font-size: 40px;
+  /* Larger text for this section only */
+}
+
+.chose-box h4 {
+  font-size: 30px;
+  /* Larger text for this section only */
 }
 
 
 @media (max-width: 767px) {
-  .chose-box h5, 
+
+  .chose-box h5,
   .chose-box h2 {
-    text-align: left; /* Align to the left on mobile */
+    text-align: left;
+    /* Align to the left on mobile */
   }
 
   .chose-box h2 {
-    font-size: 28px; /* Bigger heading for mobile */
+    font-size: 28px;
+    /* Bigger heading for mobile */
   }
 }
 
 .chose-box {
   background-color: #011632;
-  padding: 80px 30px 20px 60px;
+  padding: 60px 30px 20px 60px;
   width: 100%;
   height: 100%;
 }
@@ -661,11 +737,11 @@ ul li {
   }
 }
 
-/* .chose-img img{
+.chose-img img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-} */
+}
 .purple-box img {
   width: 70px;
   height: auto;
@@ -676,7 +752,11 @@ ul li {
 }
 
 #diag {
+  font-family: outfit;
   font-size: 20px;
+  font-weight: medium;
+  line-height: auto;
+  letter-spacing: 0%;
 }
 
 .header {
@@ -685,6 +765,7 @@ ul li {
   right: 10%;
   z-index: 999;
 }
+
 .header1 {
   position: absolute;
   top: 21%;
@@ -706,33 +787,50 @@ ul li {
 
 /* Banner Text Styles */
 .banner-text h1 {
-  font-size: 40px; /* Set h1 text size */
-  font-weight: bold; /* Make it bold */
-  color: white; /* Change color if needed */
+  font-family: outfit;
+  font-size: 60px;
+  /* Set h1 text size */
+  font-weight: medium;
+  /* Make it bold */
+  color: white;
+  /* Change color if needed */
 }
 
 .banner-text h5 {
-  font-size: 20px; /* Set h5 text size */
-  font-weight: 500; /* Adjust weight if needed */
-  color: white; /* Ensure visibility */
+  font-family: outfit;
+  font-size: 27px;
+  /* Set h5 text size */
+  font-weight: mixed;
+  /* Adjust weight if needed */
+  color: white;
+  /* Ensure visibility */
 }
+
 .banner-text h5 .thirty {
-  font-size: 20px; /* Increase span size */
-  font-weight: bold; /* Make it stand out */
-  color: #FFA722; /* Adjust color */
+  font-family: outfit;
+  font-size: 27px;
+  /* Increase span size */
+  font-weight: semibold;
+  /* Make it stand out */
+  color: #FFA722;
+  /* Adjust color */
 }
 
 /* Responsive Design */
 @media (max-width: 767px) {
   .banner-text h1 {
-    font-size: 24px; /* Adjust for mobile */
+    font-size: 24px;
+    /* Adjust for mobile */
   }
-  
+
   .banner-text h5 {
-    font-size: 14px; /* Slightly smaller for mobile */
+    font-size: 14px;
+    /* Slightly smaller for mobile */
   }
+
   .banner-text h5 .thirty {
-    font-size: 14px; /* Adjust span size for mobile */
+    font-size: 14px;
+    /* Adjust span size for mobile */
   }
 }
 
