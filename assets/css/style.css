@@ -119,6 +119,7 @@ p {
   line-height: 155%;
   letter-spacing: 0%;
 }
+
 #what {
   font-family: outfit;
   font-weight: medium;
@@ -260,9 +261,8 @@ h2 {
     /* Adjust position if needed */
   }
 
-  .pro-tex h3 {
+  .pro-tex h1 {
     font-family: outfit;
-    font-size: 35px;
     font-weight: medium;
     line-height: 140%;
     letter-spacing: 2%;
@@ -274,7 +274,6 @@ h2 {
   @media (max-width: 767px) {
     .pro-tex h3 {
       font-family: outfit;
-      font-size: 15px;
       font-weight: medium;
       line-height: 140%;
       letter-spacing: 2%;
@@ -776,6 +775,7 @@ ul li {
   font-weight: 400;
 }
 
+
 .chose-box h2 {
   font-size: 40px;
   /* Larger text for this section only */
@@ -784,6 +784,21 @@ ul li {
 .chose-box h4 {
   font-size: 30px;
   /* Larger text for this section only */
+}
+.chose-box h6 {
+  font-size: 15px;
+  /* Larger text for this section only */
+}
+
+@media (max-width: 767px) {
+  .chose-box h4 {
+    font-size: 18px;
+    /* Larger text for this section only */
+  }
+  .chose-box h6 {
+    font-size: 12px;
+    /* Larger text for this section only */
+  }
 }
 
 
@@ -848,6 +863,7 @@ ul li {
   line-height: auto;
   letter-spacing: 0%;
 }
+
 
 .header {
   position: absolute;
