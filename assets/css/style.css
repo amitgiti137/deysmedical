@@ -821,10 +821,11 @@ ul li {
   color: #fff;
 }
 
+
 /* Banner Text Styles */
 .banner-text h1 {
   font-family: outfit;
-  font-size: 60px;
+  font-size: 65px;
   /* Set h1 text size */
   font-weight: medium;
   /* Make it bold */
@@ -834,13 +835,14 @@ ul li {
 
 .banner-text h5 {
   font-family: outfit;
-  font-size: 27px;
+  font-size: 32px;
   /* Set h5 text size */
   font-weight: mixed;
   /* Adjust weight if needed */
   color: white;
   /* Ensure visibility */
 }
+
 
 .banner-text h5 .thirty {
   font-family: outfit;
