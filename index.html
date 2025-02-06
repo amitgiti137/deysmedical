@@ -8,7 +8,8 @@
 	<title>Dey's Medical</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+	<!-- <link rel="icon" type="image/png" href="assets/img/favicon.png"> -->
 	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" />
 	<link rel="stylesheet" type="text/css"
 		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
@@ -17,19 +18,6 @@
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="https://cdn.tailwindcss.com"></script>
-	<!-- <style>
-header{
-background-color: transparent;
-position: fixed;
-width:100%;
-z-index: 999;
-transition: 0.5s;
-}
-header.sticky
-{
-  background-color: #FFEFE6;
-}
-  </style> -->
 </head>
 
 <body>
@@ -38,50 +26,66 @@ header.sticky
 		<img src="assets/img/Petuk.gif" alt="loader" class="loader">
 	</div> -->
 
-	<section class="logo-div">
-		<div class="container">
-			<div class="logo-box">
-				<img class="mx-auto" src="assets/img/logo.png" alt="Dey's Medical">
+	<section class="bg-[#C1DCFF]">
+		<div class="container mx-auto px-4">
+			<div class="flex flex-wrap items-center justify-center">
+				<img src="assets/img/logo.png" alt="Dey's Medical" class="w-8 md:w-20 h-auto">
 			</div>
 		</div>
 	</section>
 
-	<section class="text-white bg-[#1376F8] py-2">
-        <div class="mx-[10px] lg:mx-[100px]">
-            <div class="flex justify-between">
-                <a href="ambulance-services.html">
-                    <div class="flex flex-col items-center text-center">
-                        <img src="assets/img/Ambulance.png" alt="Ambulance" class="w-[20px] lg:w-[40px]">
-                        <p id="" class="text-white text-[10px] lg:text-[16px]">Ambulance</p>
-                    </div>
-                </a>
-                <a href="doctors-consultation.html">
-                    <div class="flex flex-col items-center text-center">
-                        <img src="assets/img/doctors-office.png" alt="Doctor Consultant" class=" w-[20px] lg:w-[40px]">
-                        <p id="" class="text-white text-[10px] lg:text-[16px]">Doctor Consultant</p>
-                    </div>
-                </a>
-                <a href="lab-test.html">
-                    <div class="flex flex-col items-center text-center">
-                        <img src="assets/img/blood-analysis.png" alt="Diagnostics" class=" w-[20px] lg:w-[40px]">
-                        <p id="" class="text-white text-[10px] lg:text-[16px]">Diagnostics</p>
-                    </div>
-                </a>
-                <a href="medicine-delivery.html">
-                    <div class="flex flex-col items-center text-center">
-                        <img src="assets/img/medicine.png" alt="Medicine Delivery" class=" w-[20px] lg:w-[40px]">
-                        <p id="" class="text-white text-[10px] lg:text-[16px]">Medicine Delivery</p>
-                    </div>
-                </a>
-                <a href="premium.html">
-                    <div class="flex flex-col items-center text-center">
-                        <img src="assets/img/premium.png" alt="Premium" class=" w-[20px] lg:w-[40px]">
-                        <p id="" class="text-white text-[10px] lg:text-[16px]">Premium</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
+	<section class="text-[#FFF] bg-[#1376F8] py-2">
+		<div class="mx-[10px] lg:mx-[100px]">
+			<div class="flex justify-between">
+				<a href="ambulance-services.html">
+					<div class="flex flex-col items-center text-center">
+						<img src="assets/img/Ambulance.png" alt="Ambulance" class="w-[20px] lg:w-[40px]">
+						<p id="" class="text-white text-[10px] lg:text-[16px]">Ambulance</p>
+					</div>
+				</a>
+				<a href="doctors-consultation.html">
+					<div class="flex flex-col items-center text-center">
+						<img src="assets/img/doctors-office.png" alt="Doctor Consultant" class=" w-[20px] lg:w-[40px]">
+						<p id="" class="text-white text-[10px] lg:text-[16px]">Doctor Consultant</p>
+					</div>
+				</a>
+				<a href="lab-test.html">
+					<div class="flex flex-col items-center text-center">
+						<img src="assets/img/blood-analysis.png" alt="Diagnostics" class=" w-[20px] lg:w-[40px]">
+						<p id="" class="text-white text-[10px] lg:text-[16px]">Diagnostics</p>
+					</div>
+				</a>
+				<a href="medicine-delivery.html">
+					<div class="flex flex-col items-center text-center">
+						<img src="assets/img/medicine.png" alt="Medicine Delivery" class=" w-[20px] lg:w-[40px]">
+						<p id="" class="text-white text-[10px] lg:text-[16px]">Medicine Delivery</p>
+					</div>
+				</a>
+				<a href="premium.html">
+					<div class="flex flex-col items-center text-center">
+						<img src="assets/img/premium.png" alt="Premium" class=" w-[20px] lg:w-[40px]">
+						<p id="" class="text-white text-[10px] lg:text-[16px]">Premium</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- <section class="bg-[#FF5858] py-2">
+		<div class="flex flex-wrap">
+			<div class="w-full">
+				<section class="splide" id="emergency" aria-label="Splide Basic HTML Example">
+					<div class="splide__track">
+						  <ul class="splide__list">
+							  <li class="splide__slide">Slide 01</li>
+							  <li class="splide__slide">Slide 02</li>
+							  <li class="splide__slide">Slide 03</li>
+						  </ul>
+					</div>
+				  </section>
+			</div>
+		</div>
+	</section> -->
 
 	<div class="scrolling-text-container">
 		<div class="scrolling-text-inner" style="--marquee-speed: 30s; --direction:scroll-left" role="marquee">
@@ -141,330 +145,347 @@ header.sticky
 			</div>
 		</div>
 	</div>
-	<header>
-		<section class="header" id="header">
-			<div class="container">
-				<div class="header-sec">
-					<div class="d-flex align-items-center gap-3">
-						<div class="d-none d-md-block">
-							<img src="assets/img/Line.png" alt="">
+	
+	<header class="w-full z-40">
+		<section class="container mx-auto flex items-center justify-end px-6 pr-[8rem]">
+			<!-- Navigation Links -->
+			<nav class="hidden md:flex items-center gap-6  pr-5">
+				<a href="about-us.html" class="text-[#FFF]">About Us</a>
+				<a href="ambulance-services.html" class="text-[#FFF]">Services+</a>
+				<a href="faq.html" class="text-[#FFF]">FAQ</a>
+			</nav>
+	
+			<!-- drawer init and toggle -->
+			<div class="text-center">
+				<button type="button" data-drawer-target="drawer-right-example" data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">
+					<svg class="w-6 h-6 text-white mt-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+						<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+					</svg>					  
+				</button>
+			</div>
+	
+			<!-- drawer component -->
+			<div id="drawer-right-example" class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full bg-black/50 w-80" tabindex="-1" aria-labelledby="drawer-right-label">
+				<!-- Close button -->
+				<button type="button" data-drawer-hide="drawer-right-example" aria-controls="drawer-right-example" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white">
+				<svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+					<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+				</svg>
+				<span class="sr-only">Close menu</span>
+				</button>
+	
+				<!-- Navigation links -->
+				<div class="mt-6 space-y-4">
+					<a href="#" class="block px-4 py-2 text-[#FFF] hover:bg-gray-200/50 rounded-lg dark:text-[#000] transition-all duration-300 ease-in-out">Home</a>
+					<a href="#" class="block px-4 py-2 text-[#FFF] hover:bg-gray-200/50 rounded-lg dark:text-[#000] transition-all duration-300 ease-in-out">About</a>
+					<a href="#" class="block px-4 py-2 text-[#FFF] hover:bg-gray-200/50 rounded-lg dark:text-[#000] transition-all duration-300 ease-in-out">Services</a>
+					<a href="#" class="block px-4 py-2 text-[#FFF] hover:bg-gray-200/50 rounded-lg dark:text-[#000] transition-all duration-300 ease-in-out">Blog</a>
+					<a href="#" class="block px-4 py-2 text-[#FFF] hover:bg-gray-200/50 rounded-lg dark:text-[#000] transition-all duration-300 ease-in-out">Contact</a>
+				</div>
+			</div>
+		</section>
+	</header>
+
+	<section>
+		<section class="splide" id="banner" aria-label="Splide Basic HTML Example">
+			<div class="splide__track">
+				  <ul class="splide__list">
+					<li class="splide__slide relative">
+						<img src="assets/img/banner-img.png" alt="bn_1" class="w-full h-auto">
+					
+						<div class="absolute inset-0 flex items-center container">
+							<div class="ml-[50px] p-4 text-white">
+								<h1 class="font-medium text-[40px] pb-2">Medicine Delivery</h1>
+								<h5 class="text-[18px] font-normal">
+									Get <span class="text-[#FFA722]">30%</span> discount on branded <br> medicine
+								</h5>
+							</div>
+						</div>
+					</li>
+
+					<li class="splide__slide relative">
+						<img src="assets/img/banner-img.png" alt="bn_1" class="w-full h-auto">
+					
+						<div class="absolute inset-0 flex items-center container">
+							<div class="ml-[50px] p-4 text-white">
+								<h1 class="font-medium text-[40px] pb-2">Medicine Delivery</h1>
+								<h5 class="text-[18px] font-normal">
+									Get <span class="text-[#FFA722]">30%</span> discount on branded <br> medicine
+								</h5>
+							</div>
+						</div>
+					</li>
+
+					<li class="splide__slide relative">
+						<img src="assets/img/banner-img.png" alt="bn_1" class="w-full h-auto">
+					
+						<div class="absolute inset-0 flex items-center container">
+							<div class="ml-[50px] p-4 text-white">
+								<h1 class="font-medium text-[40px] pb-2">Medicine Delivery</h1>
+								<h5 class="text-[18px] font-normal">
+									Get <span class="text-[#FFA722]">30%</span> discount on branded <br> medicine
+								</h5>
+							</div>
+						</div>
+					</li>
+				  </ul>
+			</div>
+		  </section>
+	</section>
+
+	<section class="bg-[url('/assets/img/hero-3.png')]">
+		<div class="container mx-auto">
+
+			<section class="splide" id="partner" aria-label="Splide Basic HTML Example">
+				<div class="splide__track">
+					  <ul class="splide__list">
+						  <li class="splide__slide">Slide 01</li>
+						  <li class="splide__slide">Slide 02</li>
+						  <li class="splide__slide">Slide 03</li>
+					  </ul>
+				</div>
+			  </section>
+		</div>
+	</section>
+
+
+	<section class="bg-[#FFF] py-[20px]">
+		<div class="container mx-auto">
+			<div class="flex flex-wrap">
+				<div class="w-full md:w-[30%] relative overflow-hidden">
+					<div class="flex flex-col items-start justify-center pt-[30px]">
+
+						<h5 class="text-[#1376F8] font-normal text-[18px] pb-2">WHAT WE PROVIDE</h5>
+						<h2 class="text-[#011632] font-semibold text-[35px] leading-8">Our <br>
+							Medical <br>
+							Services</h2>
+						<p class="pb-2 text-[#515151] font-normal text-[16px]">
+							Molestiae non recusandae earum<br>
+							rerum hic tenetur asa
+							piente delectus.
+						</p>
+					</div>
+					<div class="absolute top-0 left-0 w-[100%] h-auto">
+						<img src="assets/img/medi-bg.png" alt="" class="w-full h-auto">
+					</div>
+				</div>
+
+				<div class="w-full md:w-[70%]">
+					<div class="relative">
+						<img src="assets/img/pro-img.png" alt="Diagnostic" class="w-full h-auto">
+						<div class="absolute top-0 left-0 w-full h-full text-white flex items-center justify-start p-4">
+						  <div class="text-left">
+							<h3 class="text-[25px] font-bold text-[#000]">We Provide<br>Best Medical<br>Treatment</h3>
+							<p class="mt-2 text-[#515151] font-normal pb-3">A placeholder text commonly<br> used to demonstrate the visual<br> form of a document....</p>
+							<a href="" class="flex justify-between"><p class="text-[#1376F8] font-bold text-[18px] pr-2">Book An Appointment </p><img src="assets/img/a-arrow.png" alt="" class="w-6 h-6"></a>
+						  </div>
+						</div>
+					</div>					  
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-[#FFF] py-[20px]">
+		<div class="container mx-auto">
+			<div class="flex flex-wrap justify-between">
+				<div class="w-full md:w-[24%] bg-[#F5F5F5] border border-[#FFF] hover:border-[#1376F8] hover:bg-[#FFF] rounded-lg p-4 transition-all duration-300">
+					<div class="flex flex-col items-start justify-center py-6">
+					  <img src="assets/img/labtest.png" alt="" class="w-16 h-16">
+					  <h4 class="text-[#011632] font-semibold text-[18px] pb-2">Diagnostic</h4>
+					  <p class="text-[#515151] font-normal text-[16px] leading-tight pb-2">
+						Duis aute irure dolor in reprehen in voluta
+					  </p>
+					  <a href="" class="text-[#1376F8] font-normal text-[15px]">Read More <i class="fa fa-angle-right"></i></a>
+					</div>
+				</div>
+				<div class="w-full md:w-[24%] bg-[#F5F5F5] border border-[#FFF] hover:border-[#1376F8] hover:bg-[#FFF] rounded-lg p-4 transition-all duration-300">
+					<div class="flex flex-col items-start justify-center py-6">
+					  <img src="assets/img/ambulance2.png" alt="" class="w-16 h-16">
+					  <h4 class="text-[#011632] font-semibold text-[18px] pb-2">Medicine Delivery</h4>
+					  <p class="text-[#515151] font-normal text-[16px] leading-tight pb-2">
+						Duis aute irure dolor in reprehen in voluta
+					  </p>
+					  <a href="" class="text-[#1376F8] font-normal text-[15px]">Read More <i class="fa fa-angle-right"></i></a>
+					</div>
+				</div>
+				<div class="w-full md:w-[24%] bg-[#F5F5F5] border border-[#FFF] hover:border-[#1376F8] hover:bg-[#FFF] rounded-lg p-4 transition-all duration-300">
+					<div class="flex flex-col items-start justify-center py-6">
+					  <img src="assets/img/doctor-icon.png" alt="" class="w-16 h-16">
+					  <h4 class="text-[#011632] font-semibold text-[18px] pb-2">Doctor Consultation</h4>
+					  <p class="text-[#515151] font-normal text-[16px] leading-tight pb-2">
+						Duis aute irure dolor in reprehen in voluta
+					  </p>
+					  <a href="" class="text-[#1376F8] font-normal text-[15px]">Read More <i class="fa fa-angle-right"></i></a>
+					</div>
+				</div>
+				<div class="w-full md:w-[24%] bg-[#F5F5F5] border border-[#FFF] hover:border-[#1376F8] hover:bg-[#FFF] rounded-lg p-4 transition-all duration-300 ease-in-out">
+					<div class="flex flex-col items-start justify-center py-6">
+					  <img src="assets/img/ambulance-1.png" alt="" class="w-16 h-16">
+					  <h4 class="text-[#011632] font-semibold text-[18px] pb-2">Pincodewise Ambulance</h4>
+					  <p class="text-[#515151] font-normal text-[16px] leading-tight pb-2">
+						Duis aute irure dolor in reprehen in voluta
+					  </p>
+					  <a href="" class="text-[#1376F8] font-normal text-[15px]">Read More <i class="fa fa-angle-right"></i></a>
+					</div>
+				  </div>				  
+			</div>
+		</div>            
+	</section>
+
+	<section class="bg-[#FFF] py-[20px]">
+		<div class="flex flex-wrap">
+			<div class="w-full md:w-[50%] bg-[#011632] pl-[80px] py-[50px]">
+				<h4 class="font-normal text-[20px] text-[#FFF] pb-2">WHY CHOOSE US</h4>
+				<h2 class="text-[#00FFCC] font-semibold text-[40px] pb-5">Choose The Best For Your<br> Health</h2>
+				<div>
+					<div class="flex items-center pb-3">
+						<img src="assets/img/female.png" alt="" class="me-3 w-16 h-16">
+						<div>
+							<h4 class="text-[#FFF] font-normal text-[25px]">Professional Staff</h4>
+                            <p class="text-[#FFF] font-normal text-[15px] leading-tight">Amet minim mollit non deserunt aliqua<br> dolor do amet sint.</p>
+						</div>
+					</div>
+					<div class="flex items-center pb-3">
+						<img src="assets/img/Out-Patient-Department.png" alt="" class="me-3 w-16 h-16">
+						<div>
+							<h4 class="text-[#FFF] font-normal text-[25px]">Online Appointment</h4>
+                            <p class="text-[#FFF] font-normal text-[15px] leading-tight">Amet minim mollit non deserunt aliqua<br> dolor do amet sint.</p>
+						</div>
+					</div>
+					<div class="flex items-center">
+						<img src="assets/img/Medical-Bag.png" alt="" class="me-3 w-16 h-16">
+						<div>
+							<h4 class="text-[#FFF] font-normal text-[25px]">Emergency Case</h4>
+                            <p class="text-[#FFF] font-normal text-[15px] leading-tight">Amet minim mollit non deserunt aliqua<br> dolor do amet sint.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-full md:w-[50%]">
+				<img src="assets/img/doctor-consult.png" alt="" class="w-full h-auto">
+			</div>
+		</div>
+	</section>
+
+	<section class="relative bg-cover bg-center bg-no-repeat px-1 md:px-12 my-[20px]"
+		style="background-image: url('assets/img/grl-background.png');">
+		<div class="container mx-auto">
+			<div class="flex flex-col md:flex-row items-center gap-8">
+				<!-- Girl Image (Left on Desktop, Top on Mobile) -->
+				<div class="w-full md:w-1/2">
+					<img src="assets/img/female-medical-professional.png" alt="Girl" class="w-full max-w-sm mx-auto">
+				</div>
+
+				<!-- FAQ Section (Right on Desktop, Below on Mobile) -->
+				<div class="w-full md:w-1/2">
+					<p class="text-white">FAQS</p>
+					<h2 class="text-3xl font-bold text-white mb-6 md:text-left">
+						Frequently Asked <br />Question?
+					</h2>
+
+					<!-- Accordion -->
+					<div class="space-y-4 mx-auto mb-3 lg:mb-0">
+						<!-- First Position -->
+						<div class="bg-white text-black rounded-md">
+							<div class="flex justify-between">
+								<div class="w-full px-2 py-3 text-sm lg:text-lg">
+									01. What services does the Deys Medicare offer?
+								</div>
+								<div class="px-2 lg:px-16 py-3 cursor-pointer">
+									<img src="assets/img/add-circle.png" alt="Toggle Button" class="toggle-content"
+										data-target="telecaller-details1" data-add-src="assets/img/add-circle.png"
+										data-minus-src="assets\img\minus-cirlce-green.png">
+								</div>
+							</div>
+							<div id="telecaller-details1" class="bg-white text-black px-4 hidden">
+								<div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg">
+									Deys Medicare is strategically located for easy access, ensuring that you can
+									reach us conveniently from various parts of the community.
+									We also provide accessibility.
+								</div>
+							</div>
 						</div>
 
-						<div class="d-none d-md-flex gap-3">
-
-							<div>
-								<a href="about-us.html" target="_blank" class="sign m-right">
-									About Us
-								</a>
+						<!-- Second Position -->
+						<div class="bg-white text-black rounded-md">
+							<div class="flex justify-between">
+								<div class="w-full px-2 lg:px-16 py-3 text-sm lg:text-lg">
+									02.  How do I schedule an appointment?
+								</div>
+								<div class="px-2 lg:px-16 py-3 cursor-pointer">
+									<img src="assets/img/add-circle.png" alt="Toggle Button" class="toggle-content"
+										data-target="telecaller-details2" data-add-src="assets/img/add-circle.png"
+										data-minus-src="assets\img\minus-cirlce-green.png">
+								</div>
 							</div>
-							<div>
-								<a href="services.html" target="_blank" class="sign">
-									Services
-								</a>
-							</div>
-							<div>
-								<a href="faq.html" target="_blank" class="sign">
-									Faq
-								</a>
+							<div id="telecaller-details2" class="bg-white text-black px-4 hidden">
+								<div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg">
+									Deys Medicare is strategically located for easy access, ensuring that you can
+									reach us conveniently from various parts of the community.
+									We also provide accessibility.
+								</div>
 							</div>
 						</div>
-						<button class="hamg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-							aria-controls="offcanvasRight">
-							<img src="assets/img/header.png" alt="" class="me-bar">
-						</button>
-						<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-							aria-labelledby="offcanvasRightLabel">
-							<div class="offcanvas-header">
-								<h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
-								<button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-									aria-label="Close"></button>
+
+						<!-- Third Position -->
+						<div class="bg-white text-black rounded-md">
+							<div class="flex justify-between">
+								<div class="w-full px-2 lg:px-16 py-3 text-sm lg:text-lg">
+									03.  What are the clinic hours of operation?
+								</div>
+								<div class="px-2 lg:px-16 py-3 cursor-pointer">
+									<img src="assets/img/add-circle.png" alt="Toggle Button" class="toggle-content"
+										data-target="telecaller-details3" data-add-src="assets/img/add-circle.png"
+										data-minus-src="assets\img\minus-cirlce-green.png">
+								</div>
 							</div>
-							<div class="offcanvas-body">
-								<ul>
-									<li><a href="index.html" class="nav-link active">Home</a></li>
-									<li><a href="premium.html" class="nav-link">Premium</a></li>
-									<li><a href="reviews.html" class="nav-link">Reviews</a></li>
-									<li><a href="blogs.html" class="nav-link">Blogs</a></li>
-									<li><a href="contact.html" class="nav-link">Contact</a></li>
-									<li><a href="careers.html" class="nav-link">Careers</a></li>
-								</ul>
-								<div class="cons-box">
-									<!-- Additional content here -->
+							<div id="telecaller-details3" class="bg-white text-black px-4 hidden">
+								<div class="w-full px-3 lg:px-16 py-3 text-sm lg:text-lg">
+									Deys Medicare is strategically located for easy access, ensuring that you can
+									reach us conveniently from various parts of the community.
+									We also provide accessibility.
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-		</section>
-	</header>
-
-	<section class="banner">
-		<div id="carouselExampleIndicators" class="carousel slide">
-			<div class="carousel-indicators">
-				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-					aria-current="true" aria-label="Slide 1"></button>
-				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-					aria-label="Slide 2"></button>
-				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-					aria-label="Slide 3"></button>
-			</div>
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="assets/img/banner-img.png" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item">
-					<img src="assets/img/banner-img.png" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item">
-					<img src="assets/img/banner-img.png" class="d-block w-100" alt="...">
-				</div>
-			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-				data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-				data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
-		</div>
-		<div class="banner-text">
-			<h1>Medicine Delivery</h1>
-			<h5>Get <span class="thirty">30%</span> discount on branded <br> medicine</h5>
-		</div>
-	</section>
-
-	<section class="blue mb">
-		<div class="container">
-			<div class="d-flex medicine">
-				<div class="ambulance-box">
-					<img src="assets/img/plus.png" alt="Ambulance">
-					<p id="white">Hospiatal</p>
-				</div>
-				<div class="ambulance-box">
-					<img src="assets/img/plus.png" alt="Ambulance">
-					<p id="white">Hospiatal</p>
-				</div>
-				<div class="ambulance-box">
-					<img src="assets/img/plus.png" alt="Ambulance">
-					<p id="white">Hospiatal</p>
-				</div>
-				<div class="ambulance-box">
-					<img src="assets/img/plus.png" alt="Ambulance">
-					<p id="white">Hospiatal</p>
-				</div>
-				<div class="ambulance-box">
-					<img src="assets/img/plus.png" alt="Ambulance">
-					<p id="white">Hospiatal</p>
-				</div>
-				<div class="ambulance-box">
-					<img src="assets/img/plus.png" alt="Ambulance">
-					<p id="white">Hospiatal</p>
-				</div>
-				<div class="ambulance-box">
-					<img src="assets/img/plus.png" alt="Ambulance">
-					<p id="white">Hospiatal</p>
-				</div>
-				<div class="ambulance-box">
-					<img src="assets/img/plus.png" alt="Ambulance">
-					<p id="white">Hospiatal</p>
-				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="provide mb">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-12">
-					<div class="text-img">
-						<h5 id="prov">WHAT WE PROVIDE</h5>
-						<h2>Our <br>
-							Medical <br>
-							Services</h2>
-						<p>
-							Molestiae non recusandae earum
-							rerum hic tenetur asa
-							piente delectus.
-						</p>
-					</div>
+
+	<section class="bg-[url('/assets/img/mask-group.png')] py-[20px] bg-cover bg-center">
+		<div class="container mx-auto">
+			<div class="flex flex-wrap justify-between text-center text-white">
+				<div class="w-full md:w-[20%] p-4 text-left">
+					<h3 class="text-3xl font-bold text-[#FFF]">69k+</h3>
+					<p class="text-lg text-[#FFF]">Satisfied Patients</p>
 				</div>
-				<div class="col-lg-9 col-md-6 col-12">
-					<div class="pro-img">
-						<img src="assets/img/pro-img.png" alt="" width="100%">
-						<div class="pro-tex">
-							<h3>We Provide <br>
-								Best Medical
-								Treatment</h3>
-							<p>
-								A placeholder text commonly used to demonstrate the visual form of a document....
-							</p>
-						</div>
-					</div>
+
+				<div class="w-[2px] h-[100px] bg-[#FFF] mt-[7px]"></div>
+	
+				<div class="w-full md:w-[20%] p-4 text-left">
+					<h3 class="text-3xl font-bold text-[#FFF]">236+</h3>
+					<p class="text-lg text-[#FFF]">Medicine Delivery</p>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-12">
-					<div class="diagnodtic">
-						<img src="assets/img/labtest.png" alt="">
-						<h4 id="diag">Diagnostic</h4>
-						<p>
-							Duis aute irure dolor in reprehen in voluta
-						</p>
-						<a href="">Read More <i class="fa fa-angle-right"></i></a>
-					</div>
+
+				<div class="w-[2px] h-[100px] bg-[#FFF] mt-[7px]"></div>
+	
+				<div class="w-full md:w-[20%] p-4 text-left">
+					<h3 class="text-3xl font-bold text-[#FFF]">42+</h3>
+					<p class="text-lg text-[#FFF]">Years of Experience</p>
 				</div>
-				<div class="col-lg-3 col-md-3 col-12">
-					<div class="diagnodtic">
-						<img src="assets/img/ambulance2.png" alt="">
-						<h4 id="diag">Medicine Delivery</h4>
-						<p>
-							Duis aute irure dolor in reprehen in voluta
-						</p>
-						<a href="">Read More <i class="fa fa-angle-right"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-12">
-					<div class="diagnodtic">
-						<img src="assets/img/doctor-icon.png" alt="">
-						<h4 id="diag">Doctor Consultation</h4>
-						<p>
-							Duis aute irure dolor in reprehen in voluta
-						</p>
-						<a href="">Read More <i class="fa fa-angle-right"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-12">
-					<div class="diagnodtic">
-						<img src="assets/img/ambulance2.png" alt="">
-						<h4 id="diag">Pincodewise Ambulance</h4>
-						<p>
-							Duis aute irure dolor in reprehen in voluta
-						</p>
-						<a href="">Read More <i class="fa fa-angle-right"></i></a>
-					</div>
+
+				<div class="w-[2px] h-[100px] bg-[#FFF] mt-[7px]"></div>
+	
+				<div class="w-full md:w-[20%] p-4 text-left">
+					<h3 class="text-3xl font-bold text-[#FFF]">320+</h3>
+					<p class="text-lg text-[#FFF]">Ambulance Services</p>
 				</div>
 			</div>
 		</div>
-	</section>
-
-	<section class="purple">
-		<div class="container-fluid">
-			<div class="row g-0">
-				<div class="col-lg-6 col-md-6 col-12">
-					<div class="chose-box">
-						<h5 id="prov" style="color:#fff;">WHY CHOOSE US</h5>
-						<h2 style="color:#00FFCC;">Choose The Best For Your Health</h2>
-						<div class="purple-box d-flex">
-							<img src="assets/img/female.png" alt="" class="me-3">
-							<div>
-								<h4 id="pro">Professional Staff</h4>
-								<p id="pro">Amet minim mollit non deserunt aliqua
-									dolor do amet sint.</p>
-							</div>
-						</div>
-						<div class="purple-box d-flex">
-							<img src="assets/img/female.png" alt="" class="me-3">
-							<div>
-								<h4 id="pro">Professional Staff</h4>
-								<p id="pro">Amet minim mollit non deserunt aliqua
-									dolor do amet sint.</p>
-							</div>
-						</div>
-						<div class="purple-box d-flex">
-							<img src="assets/img/female.png" alt="" class="me-3">
-							<div>
-								<h4 id="pro">Professional Staff</h4>
-								<p id="pro">Amet minim mollit non deserunt aliqua
-									dolor do amet sint.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-12">
-					<div class="chose-img">
-						<img src="assets/img/doctor-consult.png" alt="" class="img-fluid">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="purple mb">
-		<div class="container-fluid">
-			<div class="row g-0">
-				<div class="col-lg-6 col-md-6 col-12">
-					<div class="chose-img">
-						<img src="assets/img/doctor-consult.png" alt="" class="img-fluid">
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-12">
-					<div class="chose-box">
-						<h5 id="prov" style="color:#fff;">WHY CHOOSE US</h5>
-						<h2 style="color:#00FFCC;">Choose The Best For Your Health</h2>
-						<div class="purple-box d-flex">
-							<img src="assets/img/female.png" alt="" class="me-3">
-							<div>
-								<h4 id="pro">Professional Staff</h4>
-								<p id="pro">Amet minim mollit non deserunt aliqua
-									dolor do amet sint.</p>
-							</div>
-						</div>
-						<div class="purple-box d-flex">
-							<img src="assets/img/female.png" alt="" class="me-3">
-							<div>
-								<h4 id="pro">Professional Staff</h4>
-								<p id="pro">Amet minim mollit non deserunt aliqua
-									dolor do amet sint.</p>
-							</div>
-						</div>
-						<div class="purple-box d-flex">
-							<img src="assets/img/female.png" alt="" class="me-3">
-							<div>
-								<h4 id="pro">Professional Staff</h4>
-								<p id="pro">Amet minim mollit non deserunt aliqua
-									dolor do amet sint.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-
-	<section class="satisfies">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-12">
-					<div class="sati-box b-r">
-						<h3 id="sixty">69k+</h3>
-						<p id="sixty">Satisfied Patients</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-12">
-					<div class="sati-box b-r">
-						<h3 id="sixty">236+</h3>
-						<p id="sixty">Medicine Delivery</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-12">
-					<div class="sati-box b-r">
-						<h3 id="sixty">42+</h3>
-						<p id="sixty">Years of Experienc</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-12">
-					<div class="sati-box ">
-						<h3 id="sixty">320+</h3>
-						<p id="sixty">Ambulance Services</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	</section>	
 
 	<section class="testimonial mb">
 		<div class="container">
@@ -593,102 +614,102 @@ header.sticky
 		</div>
 	</section>
 
-	
-</div>
 
-<div class="mt-12 -mb-[200px] lg:-mb-[300px] w-full">
-	<div class="container mx-auto px-4">
-		<div class="flex flex-wrap">
-			<!-- Spacer for large screens -->
-			<div class="hidden md:block md:w-1/12"></div>
-			<div class="w-full md:w-10/12">
-				<div class="bg-cover bg-center bg-no-repeat h-64 md:h-80 lg:h-96 flex flex-col justify-center items-start p-6 md:p-10 lg:p-16 rounded-xl"
-					style="background-image: url('assets/img/last-img.png');">
-					<p class="text-white text-10px md:text-[16px] lg:text-[16px]">GET IN TOUCH</p>
-					<p class="text-white text-[20px] md:text-[30px] lg:text-[40px] font-bold mt-2">
-						Provide The Best<br /> Medical Service for You!
-					</p>
-					<button
-						class="bg-white text-[#1376F8] font-semibold text-sm md:text-base py-2 px-4 md:py-3 md:px-6 rounded-lg mt-4 transition-transform transform hover:scale-105 hover:bg-blue-600 hover:text-white">
-						Contact Us
-					</button>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-<section class="pt-[200px] lg:pt-[350px] bg-blue-600 pb-[60px] lg:pb-[20px] text-white">
-	<div class="container mx-auto px-4">
-		<div class="flex flex-wrap">
-			<!-- Left Column -->
-			<div class="w-full lg:w-5/12 md:w-5/12">
-				<div class="mb-8">
-					<img src="assets/img/footer-img.png" alt="Footer Logo" class="w-48">
-					<p class="text-gray-300 mt-4">
-						Deys Medicare serves as your trusted gateway to comprehensive healthcare solutions,
-						delivering an array of services tailored to meet your health needs.
-					</p>
-				</div>
-				<div class="flex gap-3 lg:gap-4 mb-2 lg:mb-0">
-					<a href="#" target="_blank"><img src="assets/img/fb.png" alt="Facebook"
-							class="w-12 h-12 border border-gray-300 rounded-full bg-blue-300 p-1"></a>
-					<a href="#" target="_blank"><img src="assets/img/wp.png" alt="WhatsApp"
-							class="w-12 h-12 border border-gray-300 rounded-full bg-blue-300 p-1"></a>
-					<a href="#" target="_blank"><img src="assets/img/twitter.png" alt="Twitter"
-							class="w-12 h-12 border border-gray-300 rounded-full bg-blue-300 p-1"></a>
-					<a href="#" target="_blank"><img src="assets/img/in.png" alt="LinkedIn"
-							class="w-12 h-12 border border-gray-300 rounded-full bg-blue-300 p-1"></a>
-					<a href="#" target="_blank"><img src="assets/img/youtube.png" alt="YouTube"
-							class="w-12 h-12 border border-gray-300 rounded-full bg-blue-300 p-1"></a>
-				</div>
-			</div>
-
-			<!-- Spacer for large screens -->
-			<div class="hidden lg:block lg:w-1/12 md:w-1/12"></div>
-
-			<!-- Middle Column -->
-			<div class="w-full lg:w-3/12 md:w-3/12">
-				<div class="mb-8">
-					<h4 class="font-semibold text-lg">Company</h4>
-					<div class="bg-white h-1 w-16 mt-2"></div>
-					<ul class="mt-4 space-y-2">
-						<li><a href="#" class="hover:text-gray-300">About</a></li>
-						<li><a href="#" class="hover:text-gray-300">Services</a></li>
-						<li><a href="#" class="hover:text-gray-300">Blog</a></li>
-						<li><a href="#" class="hover:text-gray-300">Testimonial</a></li>
-						<li><a href="#" class="hover:text-gray-300">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<!-- Right Column -->
-			<div class="w-full lg:w-3/12 md:w-3/12">
-				<div>
-					<h4 class="font-semibold text-lg">Contact Us</h4>
-					<div class="bg-white h-1 w-16 mt-2"></div>
-					<div class="mt-4 flex items-start space-x-3">
-						<img src="assets/img/location1.png" alt="Location" class="w-10 h-10">
-						<p class="text-gray-300 mt-2">121 King Street Melbourne, 3000, Australia</p>
-					</div>
-					<div class="mt-2 flex items-start space-x-3">
-						<img src="assets/img/mail1.png" alt="Email" class="w-10 h-10">
-						<p class="text-gray-300 mt-2">info@deysmedicare.com</p>
-					</div>
-					<div class="mt-2 flex items-start space-x-3">
-						<img src="assets/img/call1.png" alt="Phone" class="w-10 h-10">
-						<p class="text-gray-300 mt-2">+61 123 456 789</p>
+	<section>
+		<div class="mt-[10px] lg:mt-[120px] -mb-[200px] lg:-mb-[300px] w-full">
+			<div class="container mx-auto px-4">
+				<div class="flex flex-wrap">
+					<!-- Spacer for large screens -->
+					<div class="hidden md:block md:w-1/12"></div>
+					<div class="w-full md:w-10/12">
+						<div class="bg-cover bg-center bg-no-repeat h-64 md:h-80 lg:h-96 flex flex-col justify-center items-start p-6 md:p-10 lg:p-16 rounded-xl"
+							style="background-image: url('assets/img/last-img.png');">
+							<p class="text-white text-10px md:text-[16px] lg:text-[16px]">GET IN TOUCH</p>
+							<p class="text-white text-[20px] md:text-[30px] lg:text-[40px] font-bold mt-2">
+								Provide The Best<br /> Medical Service for You!
+							</p>
+							<button
+								class="bg-white text-[#1376F8] font-semibold text-sm md:text-base py-2 px-4 md:py-3 md:px-6 rounded-lg mt-4 transition-transform transform hover:scale-105 hover:bg-blue-600 hover:text-white">
+								Contact Us
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<hr class="border-gray-400 my-4">
-	<p class="text-center text-gray-300 text-sm">
-		Copyright © 2024 DigitalWolf. All rights reserved.
-	</p>
-</section>
+	</section>
+
+
+	<section class="pt-[200px] lg:pt-[350px] bg-blue-600 pb-[60px] lg:pb-[20px] text-white">
+		<div class="container mx-auto px-4">
+			<div class="flex flex-wrap">
+				<!-- Left Column -->
+				<div class="w-full lg:w-5/12 md:w-5/12">
+					<div class="mb-8">
+						<img src="assets/img/footer-img.png" alt="Footer Logo" class="w-48">
+						<p class="text-gray-300 mt-4">
+							Deys Medicare serves as your trusted gateway to comprehensive healthcare solutions,
+							delivering an array of services tailored to meet your health needs.
+						</p>
+					</div>
+					<div class="flex gap-3 lg:gap-4 mb-2 lg:mb-0">
+						<a href="#" target="_blank"><img src="assets/img/fb.png" alt="Facebook"
+								class="w-12 h-12 border border-gray-300 rounded-full bg-blue-300 p-1"></a>
+						<a href="#" target="_blank"><img src="assets/img/wp.png" alt="WhatsApp"
+								class="w-12 h-12 border border-gray-300 rounded-full bg-blue-300 p-1"></a>
+						<a href="#" target="_blank"><img src="assets/img/twitter.png" alt="Twitter"
+								class="w-12 h-12 border border-gray-300 rounded-full bg-blue-300 p-1"></a>
+						<a href="#" target="_blank"><img src="assets/img/in.png" alt="LinkedIn"
+								class="w-12 h-12 border border-gray-300 rounded-full bg-blue-300 p-1"></a>
+						<a href="#" target="_blank"><img src="assets/img/youtube.png" alt="YouTube"
+								class="w-12 h-12 border border-gray-300 rounded-full bg-blue-300 p-1"></a>
+					</div>
+				</div>
+
+				<!-- Spacer for large screens -->
+				<div class="hidden lg:block lg:w-1/12 md:w-1/12"></div>
+
+				<!-- Middle Column -->
+				<div class="w-full lg:w-3/12 md:w-3/12">
+					<div class="mb-8">
+						<h4 class="font-semibold text-lg">Company</h4>
+						<div class="bg-white h-1 w-16 mt-2"></div>
+						<ul class="mt-4 space-y-2">
+							<li><a href="#" class="hover:text-gray-300">About</a></li>
+							<li><a href="#" class="hover:text-gray-300">Services</a></li>
+							<li><a href="#" class="hover:text-gray-300">Blog</a></li>
+							<li><a href="#" class="hover:text-gray-300">Testimonial</a></li>
+							<li><a href="#" class="hover:text-gray-300">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Right Column -->
+				<div class="w-full lg:w-3/12 md:w-3/12">
+					<div>
+						<h4 class="font-semibold text-lg">Contact Us</h4>
+						<div class="bg-white h-1 w-16 mt-2"></div>
+						<div class="mt-4 flex items-start space-x-3">
+							<img src="assets/img/location1.png" alt="Location" class="w-10 h-10">
+							<p class="text-gray-300 mt-2">121 King Street Melbourne, 3000, Australia</p>
+						</div>
+						<div class="mt-2 flex items-start space-x-3">
+							<img src="assets/img/mail1.png" alt="Email" class="w-10 h-10">
+							<p class="text-gray-300 mt-2">info@deysmedicare.com</p>
+						</div>
+						<div class="mt-2 flex items-start space-x-3">
+							<img src="assets/img/call1.png" alt="Phone" class="w-10 h-10">
+							<p class="text-gray-300 mt-2">+61 123 456 789</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="border-gray-400 my-4">
+		<p class="text-center text-gray-300 text-sm">
+			Copyright © 2024 DigitalWolf. All rights reserved.
+		</p>
+	</section>
 
 
 
@@ -714,20 +735,23 @@ header.sticky
 	<!-- End -->
 
 	<div class="go-top active">
-		<i class="fa-solid fa-chevron-up" onclick="topFunction()" title="Go top"></i>
-	</div>
+        <i class="fa-solid fa-chevron-up" onclick="topFunction()" title="Go top"></i>
+    </div>
 
 	<div class="order">
 		<i class="fa-solid fa-bag-shopping" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
 	</div>
 
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.0/flowbite.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+	<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+	
 
 	<script>
 		$(document).ready(function () {
@@ -743,6 +767,29 @@ header.sticky
 					0: { items: 1 },
 					600: { items: 2 },
 					1000: { items: 3 }
+				}
+			});
+		});
+	</script>
+	<script>
+		document.querySelectorAll('.toggle-content').forEach((toggle) => {
+			toggle.addEventListener('click', (e) => {
+				const targetId = toggle.getAttribute('data-target');
+				const targetElement = document.getElementById(targetId);
+
+				const addSrc = toggle.getAttribute('data-add-src');
+				const minusSrc = toggle.getAttribute('data-minus-src');
+
+				if (targetElement) {
+					// Toggle visibility of the target content
+					targetElement.classList.toggle('hidden');
+
+					// Switch image source based on visibility
+					if (targetElement.classList.contains('hidden')) {
+						toggle.src = addSrc; // Show add-circle
+					} else {
+						toggle.src = minusSrc; // Show minus-circle
+					}
 				}
 			});
 		});

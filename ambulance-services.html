@@ -8,7 +8,7 @@
     <title>Dey's Medical</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <!-- <link rel="icon" type="image/png" href="assets/img/favicon.png"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
@@ -154,24 +154,24 @@
             <div class="container">
                 <div class="header-sec">
                     <div class="d-flex align-items-center gap-3">
-                        <div class="d-block d-md-block">
-                            <img src="assets/img/Line.png" alt="">
+                        <div class="d-none d-md-block">
+                            <img src="" alt="">
                         </div>
 
                         <div class="d-flex d-md-flex gap-3">
 
                             <div>
-                                <a href="about-us.html" target="_blank" class="sign m-right">
+                                <a href="about-us.html" class="sign m-right">
                                     About Us
                                 </a>
                             </div>
                             <div>
-                                <a href="services.html" target="_blank" class="sign">
+                                <a href="ambulance-services.html" class="sign">
                                     Services+
                                 </a>
                             </div>
                             <div>
-                                <a href="faq.html" target="_blank" class="sign">
+                                <a href="faq.html" class="sign">
                                     Faq
                                 </a>
                             </div>
@@ -206,7 +206,7 @@
         </section>
     </header>
 
-    <section class="h-[499px] bg-[url('assets/img/ambulance-banner.jpeg')] bg-cover bg-bottom">
+    <section class="h-[399px] bg-[url('assets/img/ambulance-banner.jpeg')] bg-cover bg-bottom">
         <div class="container">
             <div class="text-center">
                 <h1 class="text-[40px] text-white pt-24">Pincodewise Ambulance</h1>
@@ -500,24 +500,7 @@
             });
         });
     </script>
-    <script>
-        function toggleDropdown(id) {
-            const dropdown = document.getElementById(id);
-            dropdown.classList.toggle('hidden');
-        }
-
-        // Close dropdowns when clicking outside
-        window.addEventListener('click', function (e) {
-            const dropdowns = ['privateDropdown', 'govtDropdown', 'othersDropdown'];
-            dropdowns.forEach((id) => {
-                const dropdown = document.getElementById(id);
-                const button = dropdown.previousElementSibling;
-                if (!button.contains(e.target) && !dropdown.contains(e.target)) {
-                    dropdown.classList.add('hidden');
-                }
-            });
-        });
-    </script>
+    
     <script>
         // Select all sliders on the page
         const sliders = document.querySelectorAll('#slider');

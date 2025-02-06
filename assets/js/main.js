@@ -43,9 +43,17 @@ $(function() {
     // header js     
     
     window.addEventListener("scroll", function () {
-        var header = document.querySelector("header");
-        header.classList.toggle("sticky", window.scrollY > 50);
-    })
+      var header = document.querySelector("header");
+      if (window.scrollY > 100) {
+          header.classList.add("stickyheader");
+          header.style.position = "fixed";
+      } else {
+          header.classList.remove("stickyheader");
+          header.style.position = "absolute";
+      }
+    });
+
+  
   
     // header active link
     
@@ -70,10 +78,13 @@ window.onscroll = function() {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("go-top").style.display = "block ";
-  } else {
-      document.getElementById("go-top").style.display = "none ";
+  var goTopButton = document.getElementById("go-top");
+  if (goTopButton) {  // Check if the element exists
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        goTopButton.style.display = "block";
+    } else {
+        goTopButton.style.display = "none";
+    }
   }
 }
 
@@ -99,5 +110,53 @@ function topFunction() {
 // loader js
 var loader = document.getElementById("preloader");
 window.addEventListener("load", function(){
-  loader.style.display = "none";
+  /* loader.style.display = "none"; */
+})
+
+
+//splide js
+
+// const splide = new Splide( '.emergency', {
+//   type   : 'loop',
+//   drag   : 'free',
+//   focus  : 'center',
+//   perPage: 3,
+//   autoScroll: {
+//     speed: 1,
+//   },
+// } );
+
+// splide.mount();
+
+document.addEventListener("DOMContentLoaded", function () {
+  new Splide("#banner", {
+    type   : 'loop',
+    perPage: 1,
+    pagination:0,
+    focus  : 'start',
+    autoplay: false,
+    rewind     : true,
+    rewindSpeed: 300,
+  }).mount();
+})
+
+document.addEventListener("DOMContentLoaded", function () {
+  new Splide("#partner", {
+    type   : 'loop',
+    arrows : false,
+    perPage: 8,
+    pagination:0,
+    focus  : 'start',
+    autoplay: true,
+    rewind     : true,
+    rewindSpeed: 300,
+    breakpoints: {
+      768: {
+        perPage: 4,
+      },
+      600: {
+        perPage: 3,
+      },
+    },
+  }).mount();
 })
