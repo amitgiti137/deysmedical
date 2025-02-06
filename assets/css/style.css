@@ -47,6 +47,10 @@ a {
 .header a {
   color: #fff;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
 .header1 a {
   color: #fff;
 }
@@ -111,10 +115,111 @@ p {
 }
 
 #prov {
+<<<<<<< HEAD
+=======
+  font-family: outfit;
+  font-weight: regular;
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
   color: #1376F8;
-  font-size: 18px;
+  font-size: 25px;
+  line-height: 155%;
+  letter-spacing: 0%;
 }
 
+<<<<<<< HEAD
+=======
+#what {
+  font-family: outfit;
+  font-weight: medium;
+  color: #1376F8;
+  font-size: 50px;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+#latest {
+  font-family: outfit;
+  font-weight: medium;
+  color: black;
+  font-size: 50px;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 767px) {
+  #prov {
+    font-family: outfit;
+    font-weight: regular;
+    color: #1376F8;
+    font-size: 12px;
+    line-height: 155%;
+    letter-spacing: 0%;
+  }
+}
+@media (max-width: 767px) {
+  #what {
+    font-family: outfit;
+    font-weight: regular;
+    color: #1376F8;
+    font-size: 25px;
+    line-height: 155%;
+    letter-spacing: 0%;
+  }
+}
+@media (max-width: 767px) {
+  #latest {
+    font-family: outfit;
+    font-weight: regular;
+    color: black;
+    font-size: 25px;
+    line-height: 155%;
+    letter-spacing: 0%;
+  }
+}
+
+#our {
+  font-family: outfit;
+  font-weight: medium;
+  font-size: 60px;
+  line-height: 120%;
+  letter-spacing: 2%;
+}
+
+@media (max-width: 767px) {
+  #our {
+    font-family: outfit;
+    font-weight: medium;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 2%;
+  }
+}
+
+#mole {
+  font-family: outfit;
+  font-weight: regular;
+  font-size: 15px;
+}
+#place {
+  font-family: outfit;
+  font-weight: regular;
+  font-size: 15px;
+}
+#appoint {
+  font-family: outfit;
+  font-weight: regular;
+  font-size: 15px;
+  color: #1376F8;
+}
+
+@media (max-width: 767px) {
+  #mole {
+    font-family: outfit;
+    font-weight: regular;
+    font-size: 10px;
+  }
+}
+
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
 h2 {
   color: #011632;
   text-align: left;
@@ -124,9 +229,16 @@ h2 {
 }
 
 .text-img {
+<<<<<<< HEAD
   padding-top: 50px;
 }
 @media (max-width:767px){
+=======
+  padding-top: 0px;
+}
+
+@media (max-width:767px) {
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
   .text-img {
     padding-top: 10px;
   }
@@ -134,8 +246,14 @@ h2 {
 
 @media (max-width:767px) {
   .text-img h2 br {
+<<<<<<< HEAD
     display: none; /* Hide <br> tags on mobile */
 }
+=======
+    display: none;
+    /* Hide <br> tags on mobile */
+  }
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
 }
 
 .pro-img {
@@ -145,7 +263,7 @@ h2 {
 .pro-tex {
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 5%;
   width: 22%;
 }
 
@@ -163,13 +281,36 @@ h2 {
     /* Adjust position if needed */
   }
 
+<<<<<<< HEAD
   .pro-tex h3 {
     font-size: 14px;
+=======
+  .pro-tex h1 {
+    font-family: outfit;
+    font-weight: medium;
+    line-height: 140%;
+    letter-spacing: 2%;
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
     /* Adjust font size for mobile */
     ;
     /* Improve readability */
   }
 
+<<<<<<< HEAD
+=======
+  @media (max-width: 767px) {
+    .pro-tex h3 {
+      font-family: outfit;
+      font-weight: medium;
+      line-height: 140%;
+      letter-spacing: 2%;
+
+    }
+  }
+
+
+
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
   .pro-tex p {
     font-size: 10px;
     /* Adjust font size for mobile */
@@ -182,12 +323,30 @@ h2 {
   padding: 50px 15px;
   margin-top: 20px;
   border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 2px solid transparent; /* Default border */
+  width: 100%;
+  height: 300px;
 }
 
+<<<<<<< HEAD
 .diagnodtic img {
   width: 50px;
 }
 
+=======
+.diagnodtic:hover {
+  background-color: white !important; /* White background on hover */
+  border: 2px solid #1376F8 !important; /* Blue border */
+  box-shadow: 0px 4px 12px rgba(19, 118, 248, 0.3); /* Optional shadow effect */
+}
+
+.diagnodtic img {
+  width: 80px;
+}
+
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
 .satisfies {
   background-image: url(../img/satibg.png);
   background-repeat: no-repeat;
@@ -201,8 +360,61 @@ h2 {
 
 .sati-box {
   padding: 10px;
+  display: block !important;
+  text-align: center;
+
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 767px) {
+  .sati-box {
+      display: block !important;
+  }
+}
+
+.sati-box h1 {
+  font-size: 40px;
+}
+
+/* Ensure dropdown appears properly */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 180px; /* Adjust width */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+/* Ensure items are properly spaced and visible */
+.dropdown-menu li {
+  padding: 8px 16px;
+  list-style: none;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 8px 12px;
+}
+
+/* Change background color when hovering over items */
+.dropdown-menu a:hover {
+  background-color: #f8f9fa;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
 .b-r {
   border-right: 1px solid #ffffff67;
 }
@@ -280,6 +492,7 @@ h2 {
   /* Bring active item to the front */
 }
 
+<<<<<<< HEAD
 .stickyheader {
   position: sticky;
   top: 0;
@@ -298,6 +511,8 @@ h2 {
   color: #000;
 }
 
+=======
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
 .blog-text {
   background-color: #fff;
   padding: 10px;
@@ -637,12 +852,40 @@ ul li {
   font-weight: 400;
 }
 
+<<<<<<< HEAD
 .chose-box h2 {
   font-size: 35px; /* Larger text for this section only */
+=======
+
+.chose-box h2 {
+  font-size: 40px;
+  /* Larger text for this section only */
+}
+
+.chose-box h4 {
+  font-size: 30px;
+  /* Larger text for this section only */
+}
+.chose-box h6 {
+  font-size: 15px;
+  /* Larger text for this section only */
+}
+
+@media (max-width: 767px) {
+  .chose-box h4 {
+    font-size: 18px;
+    /* Larger text for this section only */
+  }
+  .chose-box h6 {
+    font-size: 12px;
+    /* Larger text for this section only */
+  }
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
 }
 
 
 @media (max-width: 767px) {
+<<<<<<< HEAD
   .chose-box h5, 
   .chose-box h2 {
     text-align: left; /* Align to the left on mobile */
@@ -650,12 +893,28 @@ ul li {
 
   .chose-box h2 {
     font-size: 28px; /* Bigger heading for mobile */
+=======
+
+  .chose-box h5,
+  .chose-box h2 {
+    text-align: left;
+    /* Align to the left on mobile */
+  }
+
+  .chose-box h2 {
+    font-size: 28px;
+    /* Bigger heading for mobile */
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
   }
 }
 
 .chose-box {
   background-color: #011632;
+<<<<<<< HEAD
   padding: 80px 30px 20px 60px;
+=======
+  padding: 60px 30px 20px 60px;
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
   width: 100%;
   height: 100%;
 }
@@ -672,18 +931,30 @@ ul li {
   }
 
   .chose-box {
+<<<<<<< HEAD
     padding: 20px;
+=======
+    padding: 10px;
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
     /* Add some padding for better spacing */
     text-align: center;
     /* Center text for better alignment */
   }
 }
 
+<<<<<<< HEAD
 /* .chose-img img{
   width: 100%;
   height: 100%;
   object-fit: cover;
 } */
+=======
+.chose-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
 .purple-box img {
   width: 70px;
   height: auto;
@@ -694,9 +965,17 @@ ul li {
 }
 
 #diag {
+<<<<<<< HEAD
+=======
+  font-family: outfit;
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
   font-size: 20px;
+  font-weight: medium;
+  line-height: auto;
+  letter-spacing: 0%;
 }
 
+<<<<<<< HEAD
 .header {
   position: absolute;
   top: 25%;
@@ -717,11 +996,45 @@ ul li {
 
 .banner-text {
   position: absolute;
+=======
+
+.header {
+  position: absolute;
+  top: 1%;
+  right: 15%;
+  z-index: 999;
+}
+
+@media (max-width: 767px) {
+  .header {
+    position: absolute;
+    top: 0%;
+    right: 1%;
+    z-index: 999;
+  }
+}
+
+.header1 {
+  position: absolute;
+  top: 21%;
+  right: 10%;
+  z-index: 999;
+}
+
+.header button {
+  border: none;
+  background-color: transparent;
+}
+
+.banner-text {
+  position: absolute;
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
   top: 40%;
   left: 20%;
   color: #fff;
 }
 
+<<<<<<< HEAD
 /* Banner Text Styles */
 .banner-text h1 {
   font-size: 40px; /* Set h1 text size */
@@ -738,11 +1051,45 @@ ul li {
   font-size: 20px; /* Increase span size */
   font-weight: bold; /* Make it stand out */
   color: #FFA722; /* Adjust color */
+=======
+
+/* Banner Text Styles */
+.banner-text h1 {
+  font-family: outfit;
+  font-size: 65px;
+  /* Set h1 text size */
+  font-weight: medium;
+  /* Make it bold */
+  color: white;
+  /* Change color if needed */
+}
+
+.banner-text h5 {
+  font-family: outfit;
+  font-size: 32px;
+  /* Set h5 text size */
+  font-weight: mixed;
+  /* Adjust weight if needed */
+  color: white;
+  /* Ensure visibility */
+}
+
+
+.banner-text h5 .thirty {
+  font-family: outfit;
+  font-size: 27px;
+  /* Increase span size */
+  font-weight: semibold;
+  /* Make it stand out */
+  color: #FFA722;
+  /* Adjust color */
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
 }
 
 /* Responsive Design */
 @media (max-width: 767px) {
   .banner-text h1 {
+<<<<<<< HEAD
     font-size: 24px; /* Adjust for mobile */
   }
   
@@ -751,6 +1098,20 @@ ul li {
   }
   .banner-text h5 .thirty {
     font-size: 14px; /* Adjust span size for mobile */
+=======
+    font-size: 24px;
+    /* Adjust for mobile */
+  }
+
+  .banner-text h5 {
+    font-size: 14px;
+    /* Slightly smaller for mobile */
+  }
+
+  .banner-text h5 .thirty {
+    font-size: 14px;
+    /* Adjust span size for mobile */
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
   }
 }
 
@@ -1025,6 +1386,7 @@ ul li {
     font-weight: 600;
     font-family: Barcelony;
   }
+<<<<<<< HEAD
 
   .go-top.active {
     top: 90%;
@@ -1093,4 +1455,35 @@ ul li {
     align-items: center;
     justify-content: center; 
     fill: #fff;
+=======
+
+  .go-top.active {
+    top: 90%;
+  }
+
+  .cuisine-img {
+    margin-bottom: 20px;
+  }
+
+  h6 {
+    margin-bottom: 10px;
+  }
+
+  .copy {
+    margin-bottom: 70px;
+  }
+
+  .rice {
+    width: 100%;
+    margin-top: 20px !important;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .transition {
+    transition: all 0.3s ease-in-out;
+  }
+>>>>>>> 38d8c6b396fadacc8f8d2fece2d3cdf6ec7219b9
 }
